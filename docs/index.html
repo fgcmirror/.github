@@ -4,26 +4,52 @@
 <meta charset="utf-8">
 <title>fgcmirror — fighting game site preservation</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A community effort to preserve historic fighting-game websites at risk of disappearing.">
 <style>
-  body { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; max-width: 720px; margin: 3rem auto; padding: 0 1rem; line-height: 1.5; color: #ddd; background: #111; }
-  h1 { font-size: 1.4rem; }
-  a { color: #6cf; }
-  a:visited { color: #c9f; }
-  ul { list-style: none; padding: 0; }
-  li { margin: .4rem 0; }
-  .src { font-size: .85em; opacity: .6; }
-  footer { margin-top: 3rem; opacity: .6; font-size: .9em; }
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; line-height: 1.55; color: #e5e5e5; background: #0f0f10; }
+  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -0.5px; }
+  h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px; opacity: .85; margin-top: 2.5rem; border-bottom: 1px solid #2a2a2c; padding-bottom: .35rem; }
+  p { margin: .75rem 0; }
+  a { color: #7cc1ff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  a:visited { color: #c9a3ff; }
+  ul.mirrors { list-style: none; padding: 0; margin: 1rem 0 0; }
+  li.mirror { padding: .8rem 0; border-bottom: 1px dashed #2a2a2c; }
+  li.mirror:last-child { border-bottom: none; }
+  li.mirror .links { font-size: .85rem; opacity: .8; margin-top: .25rem; }
+  li.mirror .links a { margin-right: .85rem; }
+  .lede { opacity: .85; }
+  .cta { background: #1a1a1c; border: 1px solid #2a2a2c; padding: 1rem 1.1rem; border-radius: 6px; margin-top: 1rem; }
+  .cta strong { color: #ffd966; }
+  footer { margin-top: 3.5rem; opacity: .55; font-size: .85rem; }
+  code { background: #1a1a1c; padding: 1px 6px; border-radius: 3px; }
 </style>
 </head>
 <body>
   <h1>fgcmirror</h1>
-  <p>Preservation of historic fighting-game community websites. Each mirror is a public repository under <a href="https://github.com/fgcmirror">github.com/fgcmirror</a>.</p>
+  <p class="lede">Preserving historic websites from the fighting-game community before they disappear.</p>
+
+  <p>Many of the sites that documented fighting games — character pages, move lists, official sites, fan portals — are dead or one server migration away from being lost. <strong>fgcmirror</strong> archives them as static, fully self-contained mirrors served from <a href="https://github.com/fgcmirror">github.com/fgcmirror</a>.</p>
+
+  <p>Each mirror lives at its own subdomain (<code>&lt;slug&gt;.fgcmirror.com</code>) and is its own public repository. Anyone can browse the source, propose fixes, or backfill missing assets via pull request.</p>
+
+  <h2>How to help</h2>
+  <div class="cta">
+    <p><strong>Know a site that should be preserved?</strong><br>
+    Open an issue at <a href="https://github.com/fgcmirror/.github/issues/new">github.com/fgcmirror/.github</a> with the URL (and a Wayback link if the site is dead). We'll capture and publish it.</p>
+    <p style="margin-bottom:0"><strong>Found a missing asset or a better snapshot for an existing mirror?</strong><br>
+    Open a PR on the corresponding repo. Each repo's <code>README.md</code> lists what's missing.</p>
+  </div>
+
   <h2>Mirrors (1)</h2>
-  <ul>
-        <li><a href="https://fatal-fury-wild-ambition.fgcmirror.com">fatal-fury-wild-ambition</a> — Mirror of Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition) (http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) <a class="src" href="https://github.com/fgcmirror/fatal-fury-wild-ambition">[source]</a></li>
+  <ul class="mirrors">
+      <li class="mirror"><strong><a href="https://fatal-fury-wild-ambition.fgcmirror.com">Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)</a></strong><div class="links"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">visit mirror</a><a href="https://github.com/fgcmirror/fatal-fury-wild-ambition">source repo</a><a href="http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm" rel="noopener">original URL</a></div></li>
   </ul>
+
   <footer>
-    Suggest sites at <a href="https://github.com/fgcmirror">github.com/fgcmirror</a>.
+    Source: <a href="https://github.com/fgcmirror">github.com/fgcmirror</a> · Suggest sites: <a href="https://github.com/fgcmirror/.github/issues/new">open an issue</a>
   </footer>
 </body>
 </html>
