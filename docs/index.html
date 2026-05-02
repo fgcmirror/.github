@@ -28,6 +28,12 @@
   table.mirrors tr.hidden { display: none; }
   table.mirrors td.title a { font-weight: 600; }
   table.mirrors td.links { font-size: .85rem; opacity: .85; white-space: nowrap; }
+  table.mirrors td.missing-cell { font-variant-numeric: tabular-nums; text-align: right; opacity: .85; }
+  table.mirrors th:nth-child(3), table.mirrors td.missing-cell { text-align: right; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: .75rem; font-weight: 600; text-transform: lowercase; letter-spacing: .3px; }
+  .badge-preserved { background: rgba(46, 160, 67, 0.2); color: #5dd07a; border: 1px solid rgba(46, 160, 67, 0.5); }
+  .badge-partial { background: rgba(210, 153, 34, 0.18); color: #f0c862; border: 1px solid rgba(210, 153, 34, 0.5); }
+  .badge-unknown { background: rgba(120, 120, 120, 0.18); color: #aaa; border: 1px solid rgba(120, 120, 120, 0.4); }
   #empty { padding: 1rem .5rem; opacity: .65; display: none; }
   #empty.shown { display: block; }
   footer { margin-top: 3.5rem; opacity: .55; font-size: .85rem; }
@@ -57,12 +63,12 @@
   </div>
   <table class="mirrors">
     <thead>
-      <tr><th>Title</th><th>Links</th></tr>
+      <tr><th>Title</th><th>Status</th><th>Missing</th><th>Links</th></tr>
     </thead>
     <tbody id="mirrors-body">
-        <tr data-search="buriki one buriki-one"><td class="title"><a href="https://buriki-one.fgcmirror.com">Buriki One</a></td><td class="links"><a href="https://buriki-one.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/buriki-one">source</a> · <a href="http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm" rel="noopener">original</a></td></tr>
-        <tr data-search="fatal fury: wild ambition (garou densetsu wild ambition) fatal-fury-wild-ambition"><td class="title"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)</a></td><td class="links"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/fatal-fury-wild-ambition">source</a> · <a href="http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm" rel="noopener">original</a></td></tr>
-        <tr data-search="neogeo battle coliseum neogeo-battle-coliseum"><td class="title"><a href="https://neogeo-battle-coliseum.fgcmirror.com">NeoGeo Battle Coliseum</a></td><td class="links"><a href="https://neogeo-battle-coliseum.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/neogeo-battle-coliseum">source</a> · <a href="https://game.snk-corp.co.jp/official/nbc/" rel="noopener">original</a></td></tr>
+        <tr data-search="buriki one buriki-one" data-status="partial"><td class="title"><a href="https://buriki-one.fgcmirror.com">Buriki One</a></td><td class="status-cell"><span class="badge badge-partial">partial</span></td><td class="missing-cell">24</td><td class="links"><a href="https://buriki-one.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/buriki-one">source</a> · <a href="http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm" rel="noopener">original</a></td></tr>
+        <tr data-search="fatal fury: wild ambition (garou densetsu wild ambition) fatal-fury-wild-ambition" data-status="partial"><td class="title"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)</a></td><td class="status-cell"><span class="badge badge-partial">partial</span></td><td class="missing-cell">281</td><td class="links"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/fatal-fury-wild-ambition">source</a> · <a href="http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm" rel="noopener">original</a></td></tr>
+        <tr data-search="neogeo battle coliseum neogeo-battle-coliseum" data-status="preserved"><td class="title"><a href="https://neogeo-battle-coliseum.fgcmirror.com">NeoGeo Battle Coliseum</a></td><td class="status-cell"><span class="badge badge-preserved">preserved</span></td><td class="missing-cell">0</td><td class="links"><a href="https://neogeo-battle-coliseum.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/neogeo-battle-coliseum">source</a> · <a href="https://game.snk-corp.co.jp/official/nbc/" rel="noopener">original</a></td></tr>
     </tbody>
   </table>
   <div id="empty">No mirrors match your filter.</div>

@@ -7,7 +7,9 @@
     "updated_at": "2026-05-02T19:37:54Z",
     "pushed_at": "2026-05-02T19:37:50Z",
     "title": "Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)",
-    "original_url": "http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm"
+    "original_url": "http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm",
+    "missing_count": 281,
+    "status": "partial"
   },
   {
     "slug": "neogeo-battle-coliseum",
@@ -17,7 +19,9 @@
     "updated_at": "2026-05-02T20:10:58Z",
     "pushed_at": "2026-05-02T20:10:52Z",
     "title": "NeoGeo Battle Coliseum",
-    "original_url": "https://game.snk-corp.co.jp/official/nbc/"
+    "original_url": "https://game.snk-corp.co.jp/official/nbc/",
+    "missing_count": 0,
+    "status": "preserved"
   },
   {
     "slug": "buriki-one",
@@ -27,6 +31,8 @@
     "updated_at": "2026-05-02T21:10:02Z",
     "pushed_at": "2026-05-02T21:09:58Z",
     "title": "Buriki One",
-    "original_url": "http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm"
+    "original_url": "http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm",
+    "missing_count": 24,
+    "status": "partial"
   }
 ]
