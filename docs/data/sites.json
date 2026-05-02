@@ -82,5 +82,17 @@
     "original_url": "https://game.snk-corp.co.jp/official/kof-mi2/",
     "missing_count": 9,
     "status": "partial"
+  },
+  {
+    "slug": "king-of-fighters-98-ultimate-match",
+    "description": "Mirror of THE KING OF FIGHTERS '98 ULTIMATE MATCH (https://game.snk-corp.co.jp/official/kof98um/)",
+    "url": "https://king-of-fighters-98-ultimate-match.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/king-of-fighters-98-ultimate-match",
+    "updated_at": "2026-05-02T23:52:27Z",
+    "pushed_at": "2026-05-02T23:52:21Z",
+    "title": "THE KING OF FIGHTERS '98 ULTIMATE MATCH",
+    "original_url": "https://game.snk-corp.co.jp/official/kof98um/",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
