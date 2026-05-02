@@ -2,105 +2,476 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>fgcmirror — fighting game site preservation</title>
+<title>FGC Mirror — preserving fighting-game websites</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="A community effort to preserve historic fighting-game websites at risk of disappearing.">
+<meta name="description" content="Preserving the official websites of fighting games — character bios, move lists, art galleries, intros — so they keep working long after the original servers go dark.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
 <style>
-  :root { color-scheme: dark; }
-  * { box-sizing: border-box; }
-  body { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; max-width: 880px; margin: 0 auto; padding: 3rem 1.25rem 5rem; line-height: 1.55; color: #e5e5e5; background: #0f0f10; }
-  h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -0.5px; }
-  h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px; opacity: .85; margin-top: 2.5rem; border-bottom: 1px solid #2a2a2c; padding-bottom: .35rem; }
-  p { margin: .75rem 0; }
-  a { color: #7cc1ff; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  a:visited { color: #c9a3ff; }
-  .lede { opacity: .85; }
-  .cta { background: #1a1a1c; border: 1px solid #2a2a2c; padding: 1rem 1.1rem; border-radius: 6px; margin-top: 1rem; }
-  .cta strong { color: #ffd966; }
-  .toolbar { display: flex; align-items: center; gap: .75rem; margin: 1rem 0 .5rem; }
-  #search { flex: 1; min-width: 0; padding: .55rem .8rem; background: #1a1a1c; border: 1px solid #2a2a2c; border-radius: 5px; color: inherit; font: inherit; }
-  #search:focus { outline: none; border-color: #7cc1ff; }
-  #count { font-size: .85rem; opacity: .7; white-space: nowrap; }
-  table.mirrors { width: 100%; border-collapse: collapse; margin-top: .5rem; }
-  table.mirrors th, table.mirrors td { text-align: left; padding: .55rem .65rem; border-bottom: 1px dashed #2a2a2c; vertical-align: top; }
-  table.mirrors th { font-size: .8rem; text-transform: uppercase; letter-spacing: 1px; opacity: .65; border-bottom: 1px solid #3a3a3c; }
-  table.mirrors tr.hidden { display: none; }
-  table.mirrors td.title a { font-weight: 600; }
-  table.mirrors td.links { font-size: .85rem; opacity: .85; white-space: nowrap; }
-  table.mirrors td.missing-cell { font-variant-numeric: tabular-nums; text-align: right; opacity: .85; }
-  table.mirrors th.col-missing, table.mirrors td.missing-cell { text-align: right; }
-  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: .75rem; font-weight: 600; text-transform: lowercase; letter-spacing: .3px; }
-  .badge-preserved { background: rgba(46, 160, 67, 0.2); color: #5dd07a; border: 1px solid rgba(46, 160, 67, 0.5); }
-  .badge-partial { background: rgba(210, 153, 34, 0.18); color: #f0c862; border: 1px solid rgba(210, 153, 34, 0.5); }
-  .badge-unknown { background: rgba(120, 120, 120, 0.18); color: #aaa; border: 1px solid rgba(120, 120, 120, 0.4); }
-  #empty { padding: 1rem .5rem; opacity: .65; display: none; }
-  #empty.shown { display: block; }
-  footer { margin-top: 3.5rem; opacity: .55; font-size: .85rem; }
-  code { background: #1a1a1c; padding: 1px 6px; border-radius: 3px; }
+  :root{
+    --bg-base:#0e1119;
+    --bg-panel:#131822;
+    --bg-surface:#151b28;
+    --bg-elevated:#1c2333;
+    --bg-hover:#212940;
+    --accent-violet:#b197fc;
+    --accent-pink:#f783c0;
+    --good:#4ade80;
+    --medium:#fbbf24;
+    --bad:#f87171;
+    --text-primary:#e2e8f0;
+    --text-secondary:#94a3b8;
+    --text-muted:#4b5568;
+    --border:rgba(177,151,252,0.11);
+    --border-hover:rgba(177,151,252,0.26);
+  }
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--bg-base);color:var(--text-primary);font-family:'JetBrains Mono',monospace;-webkit-font-smoothing:antialiased}
+  body{
+    min-height:100vh;
+    background-image:
+      repeating-linear-gradient(0deg,rgba(0,0,0,0.07) 0,rgba(0,0,0,0.07) 1px,transparent 1px,transparent 4px),
+      radial-gradient(circle,rgba(177,151,252,0.055) 1px,transparent 1px);
+    background-size:100% 4px,28px 28px;
+    line-height:1.5;
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--accent-violet);color:var(--bg-base)}
+
+  .wrap{max-width:1280px;margin:0 auto;padding:0 22px}
+
+  /* TOPBAR */
+  header.topbar{
+    position:sticky;top:0;z-index:30;
+    height:60px;background:rgba(19,24,34,.92);backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--border);
+  }
+  header.topbar::before{
+    content:'';position:absolute;top:0;left:0;right:0;height:2px;
+    background:linear-gradient(90deg,transparent,var(--accent-violet) 30%,var(--accent-pink) 60%,transparent);
+  }
+  .topbar-inner{display:flex;align-items:center;justify-content:space-between;height:100%;gap:18px;position:relative}
+  .brand{display:flex;align-items:center;gap:11px;flex-shrink:0}
+  .logo-mark{
+    width:30px;height:30px;
+    border:1.5px solid rgba(177,151,252,.55);border-radius:6px;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 0 12px rgba(177,151,252,.18), inset 0 0 0 1px rgba(247,131,192,.08);
+    position:relative;overflow:hidden;flex-shrink:0;
+  }
+  .logo-mark::after{
+    content:'';position:absolute;inset:0;
+    background:radial-gradient(circle at 50% 50%, rgba(247,131,192,.12), transparent 70%);
+    pointer-events:none;
+  }
+  .logo-mark svg{display:block}
+  .logo-mark .lm-bar{animation:lmpulse 2.4s ease-in-out infinite}
+  @keyframes lmpulse{0%,100%{opacity:.35}50%{opacity:1}}
+  .brand-text{
+    font-family:'Saira',sans-serif;font-weight:700;font-style:italic;font-size:16px;letter-spacing:-.01em;line-height:1.05;
+    background:linear-gradient(120deg,#c4b5fd,#f9a8d4);
+    -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  }
+  .brand-text small{
+    display:block;font-family:'JetBrains Mono',monospace;font-weight:400;
+    font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--text-muted);
+    -webkit-text-fill-color:var(--text-muted);margin-top:1px;
+  }
+
+  .topbar-center{
+    position:absolute;left:50%;transform:translateX(-50%);
+    display:flex;align-items:center;gap:22px;
+  }
+  .hud-stat{text-align:center}
+  .hud-label{font-family:'Saira',sans-serif;font-size:8px;letter-spacing:.16em;text-transform:uppercase;color:var(--text-muted);margin-bottom:3px;font-weight:600}
+  .hud-val{font-family:'JetBrains Mono',monospace;font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;color:var(--text-primary)}
+  .hud-val.good{color:var(--good);text-shadow:0 0 8px rgba(74,222,128,.45)}
+  .hud-val.medium{color:var(--medium)}
+  .hud-sep{width:1px;height:26px;background:var(--border)}
+  @media(max-width:880px){.topbar-center{display:none}}
+
+  .topbar-right{display:flex;align-items:center;gap:6px;flex-shrink:0}
+  nav.menu{display:flex;gap:0;font-family:'Saira',sans-serif;font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--text-secondary)}
+  nav.menu a{padding:8px 13px;border-radius:5px;transition:.16s;display:flex;align-items:center;gap:6px}
+  nav.menu a:hover{background:var(--bg-elevated);color:var(--text-primary)}
+  nav.menu a.active{background:rgba(177,151,252,.1);color:#c4b5fd;box-shadow:inset 0 0 0 1px rgba(177,151,252,.2)}
+  .live-badge{
+    display:flex;align-items:center;gap:6px;
+    font-family:'Saira',sans-serif;font-size:9px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--good);border:1px solid rgba(74,222,128,.22);padding:5px 10px;border-radius:4px;
+    background:rgba(74,222,128,.05);margin-left:6px;
+  }
+  .live-dot{width:5px;height:5px;border-radius:50%;background:var(--good);box-shadow:0 0 5px var(--good);animation:ldot 1.8s ease-in-out infinite}
+  @keyframes ldot{0%,100%{opacity:1}50%{opacity:.3}}
+  @media(max-width:680px){.live-badge{display:none}}
+
+  /* MAIN */
+  main{padding:24px 0 40px}
+
+  /* SECTION HEADERS */
+  .section-head{display:flex;align-items:center;gap:10px;padding:14px 0 10px;border-bottom:1px solid var(--border);margin-bottom:18px}
+  .section-head .ix{
+    font-family:'Saira',sans-serif;font-size:10px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent-violet);padding:3px 9px;border-radius:4px;
+    background:rgba(177,151,252,.08);border:1px solid rgba(177,151,252,.2);
+  }
+  .section-head h2{font-style:italic;
+    font-family:'Saira',sans-serif;font-weight:700;font-size:14px;
+    letter-spacing:.12em;text-transform:uppercase;color:var(--text-primary);
+  }
+  .section-head .pill-count{
+    font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--text-muted);letter-spacing:.06em;
+    padding:2px 8px;border-radius:9px;background:var(--bg-elevated);
+  }
+  .section-head .rule{flex:1;height:1px;background:var(--border)}
+  .section-head .right{font-family:'Saira',sans-serif;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);font-weight:600}
+
+  /* HOME */
+  #home .toolbar{
+    display:flex;align-items:center;gap:0;background:var(--bg-panel);
+    border:1px solid var(--border);border-radius:7px;overflow:hidden;
+    margin-bottom:14px;flex-wrap:wrap;
+  }
+  #home .toolbar:focus-within{border-color:rgba(177,151,252,.4);box-shadow:0 0 0 3px rgba(177,151,252,.08)}
+  #home .toolbar .search{flex:1;display:flex;align-items:center;gap:10px;padding:0 14px;min-width:240px;position:relative}
+  #home .toolbar .search svg{color:var(--text-muted)}
+  #home .toolbar input{
+    flex:1;background:transparent;border:0;outline:0;color:var(--text-primary);
+    font-family:'JetBrains Mono',monospace;font-size:11px;padding:11px 0;
+  }
+  #home .toolbar input::placeholder{color:var(--text-muted);font-style:italic}
+  #home .toolbar .stamp{
+    font-family:'Saira',sans-serif;font-size:9px;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);
+    border-left:1px solid var(--border);padding:11px 14px;font-weight:600;
+  }
+  #home .toolbar .stamp b{color:var(--accent-violet);font-weight:700}
+
+  /* DATA TABLE */
+  table.data{width:100%;border-collapse:separate;border-spacing:0 3px}
+  table.data thead th{
+    font-family:'Saira',sans-serif;font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);
+    padding:6px 12px;text-align:left;
+  }
+  table.data thead th:last-child{text-align:right}
+  table.data tbody tr{
+    background:var(--bg-surface);
+    transition:background .12s,box-shadow .12s;
+  }
+  table.data tbody tr:hover{background:var(--bg-hover);box-shadow:0 0 0 1px var(--border-hover)}
+  table.data tbody tr.preserved{background:rgba(74,222,128,.04);box-shadow:0 0 0 1px rgba(74,222,128,.14)}
+  table.data tbody tr.preserved:hover{background:rgba(74,222,128,.08);box-shadow:0 0 0 1px rgba(74,222,128,.25)}
+  table.data tbody td{padding:11px 12px;font-size:12px;vertical-align:middle}
+  table.data tbody td:first-child{border-radius:6px 0 0 6px}
+  table.data tbody td:last-child{border-radius:0 6px 6px 0;text-align:right}
+
+  td.title .name{font-family:'Saira',sans-serif;font-size:13px;font-weight:600;color:var(--text-primary);letter-spacing:.005em}
+  td.title .slug{font-size:10px;color:var(--text-muted);margin-top:2px;font-style:italic}
+
+  td.links{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.04em}
+  td.links a{
+    display:inline-flex;align-items:center;gap:5px;
+    padding:4px 9px;border-radius:4px;color:var(--text-secondary);
+    background:var(--bg-elevated);margin-right:5px;transition:.15s;
+    border:1px solid transparent;
+  }
+  td.links a:hover{color:#c4b5fd;background:rgba(177,151,252,.12);border-color:rgba(177,151,252,.25)}
+  td.links a svg{width:10px;height:10px}
+
+  td.missing-cell{font-variant-numeric:tabular-nums}
+  td.missing-cell .miss-val{font-weight:600;font-size:13px;color:var(--text-primary)}
+  td.missing-cell .miss-val.zero{color:var(--text-muted);font-weight:400}
+  .q-track{width:88px;height:3px;background:var(--bg-elevated);border-radius:2px;overflow:hidden;margin-top:5px}
+  .q-fill{height:100%;border-radius:2px}
+  .qf-medium{background:linear-gradient(90deg,#fbbf24,rgba(251,191,36,.4))}
+  .qf-bad{background:linear-gradient(90deg,#f87171,rgba(248,113,113,.4))}
+
+  .badge{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:99px;font-family:'Saira',sans-serif;font-size:9px;letter-spacing:.06em;font-weight:700;text-transform:uppercase}
+  .badge-good{background:rgba(74,222,128,.1);border:1px solid rgba(74,222,128,.22);color:var(--good)}
+  .badge-medium{background:rgba(251,191,36,.1);border:1px solid rgba(251,191,36,.22);color:var(--medium)}
+  .badge-unknown{background:rgba(120,120,120,.1);border:1px solid rgba(120,120,120,.22);color:var(--text-muted)}
+  .badge-dot{width:5px;height:5px;border-radius:50%}
+  .dot-good{background:var(--good);box-shadow:0 0 4px var(--good)}
+  .dot-medium{background:var(--medium)}
+  .dot-unknown{background:var(--text-muted)}
+
+  .empty{display:none;padding:36px 14px;text-align:center;font-family:'Saira',sans-serif;font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:.04em;background:var(--bg-surface);border-radius:6px;margin-top:8px}
+  .empty.show{display:block}
+
+  /* loading */
+  .loading{padding:48px 14px;text-align:center;font-family:'Saira',sans-serif;font-size:11px;color:var(--text-muted);font-style:italic;letter-spacing:.18em;text-transform:uppercase;background:var(--bg-surface);border-radius:6px;margin-top:8px}
+  .loading.hide{display:none}
+  .loading::before{content:'⟳ ';display:inline-block;animation:spin 1.4s linear infinite;font-style:normal}
+  @keyframes spin{to{transform:rotate(360deg)}}
+
+  /* SECTIONS */
+  section.block{padding:16px 0 36px}
+
+  section.block .copy{
+    background:var(--bg-panel);border:1px solid var(--border);border-radius:7px;
+    padding:22px 24px;
+  }
+  section.block p{font-size:14.5px;color:var(--text-secondary);line-height:1.7}
+  section.block p + p{margin-top:10px}
+  section.block p strong{color:var(--text-primary);font-weight:600}
+  section.block code{
+    font-family:'JetBrains Mono',monospace;font-size:.92em;
+    color:#c4b5fd;background:rgba(177,151,252,.08);padding:2px 7px;border-radius:4px;
+    border:1px solid rgba(177,151,252,.18);
+  }
+
+  .help-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  @media(max-width:720px){.help-grid{grid-template-columns:1fr}}
+  .help-card{
+    background:var(--bg-panel);border:1px solid var(--border);border-radius:7px;
+    padding:20px 22px;display:flex;flex-direction:column;gap:9px;transition:.18s;
+    position:relative;overflow:hidden;
+  }
+  .help-card::before{
+    content:'';position:absolute;top:0;left:0;width:0;height:2px;
+    background:linear-gradient(90deg,var(--accent-violet),var(--accent-pink));
+    transition:width .3s;
+  }
+  .help-card:hover{border-color:var(--border-hover);background:var(--bg-surface)}
+  .help-card:hover::before{width:100%}
+  .help-card .num{
+    font-family:'Saira',sans-serif;font-size:9px;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--accent-violet);font-weight:700;
+  }
+  .help-card h3{font-family:'Saira',sans-serif;font-weight:700;font-size:18px;letter-spacing:.02em;color:var(--text-primary)}
+  .help-card p{font-size:13.5px;color:var(--text-secondary);line-height:1.6}
+  .help-card .cta{
+    margin-top:6px;display:inline-flex;align-items:center;gap:7px;
+    font-family:'Saira',sans-serif;font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:#c4b5fd;
+  }
+  .help-card .cta svg{transition:transform .25s}
+  .help-card:hover .cta svg{transform:translateX(5px)}
+
+  /* footer */
+  footer{
+    margin-top:18px;padding:18px 0;border-top:1px solid var(--border);
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+    font-family:'Saira',sans-serif;font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--text-muted);
+  }
+  footer a{color:var(--text-secondary);transition:.18s;border-bottom:1px dotted var(--border)}
+  footer a:hover{color:#c4b5fd;border-bottom-color:rgba(177,151,252,.4)}
 </style>
 </head>
 <body>
-  <h1>fgcmirror</h1>
-  <p class="lede">Preserving historic websites from the fighting-game community before they disappear.</p>
 
-  <p>Many of the sites that documented fighting games — character pages, move lists, official sites, fan portals — are dead or one server migration away from being lost. <strong>fgcmirror</strong> archives them as static, fully self-contained mirrors served from <a href="https://github.com/fgcmirror">github.com/fgcmirror</a>.</p>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="#">
+      <span class="logo-mark" aria-hidden="true">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <defs>
+            <linearGradient id="fgcLogo" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#c4b5fd"/>
+              <stop offset="1" stop-color="#f9a8d4"/>
+            </linearGradient>
+          </defs>
+          <path d="M5 6 L10 12 L5 18" stroke="url(#fgcLogo)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M19 6 L14 12 L19 18" stroke="url(#fgcLogo)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="lm-bar" d="M12 4 V20" stroke="url(#fgcLogo)" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="brand-text">FGC Mirror<small>archive · v0.1</small></span>
+    </a>
 
-  <p>Each mirror lives at its own subdomain (<code>&lt;slug&gt;.fgcmirror.com</code>) and is its own public repository. Anyone can browse the source, propose fixes, or backfill missing assets via pull request.</p>
+    <div class="topbar-center">
+      <div class="hud-stat"><div class="hud-label">Mirrors</div><div class="hud-val" id="hud-total">000</div></div>
+      <div class="hud-sep"></div>
+      <div class="hud-stat"><div class="hud-label">Preserved</div><div class="hud-val good" id="hud-preserved">000</div></div>
+      <div class="hud-sep"></div>
+      <div class="hud-stat"><div class="hud-label">Partial</div><div class="hud-val medium" id="hud-partial">000</div></div>
+    </div>
 
-  <h2>How to help</h2>
-  <div class="cta">
-    <p><strong>Know a site that should be preserved?</strong><br>
-    Open an issue at <a href="https://github.com/fgcmirror/.github/issues/new">github.com/fgcmirror/.github</a> with the URL (and a Wayback link if the site is dead). We'll capture and publish it.</p>
-    <p style="margin-bottom:0"><strong>Found a missing asset or a better snapshot for an existing mirror?</strong><br>
-    Open a PR on the corresponding repo. Each repo's <code>README.md</code> lists what's missing.</p>
+    <div class="topbar-right">
+      <nav class="menu">
+        <a href="#home" class="active">Mirrors</a>
+        <a href="#about">About</a>
+        <a href="#help">How to help</a>
+        <a href="https://github.com/fgcmirror" target="_blank" rel="noopener">GitHub ↗</a>
+      </nav>
+      <span class="live-badge"><span class="live-dot"></span>online</span>
+    </div>
   </div>
+</header>
 
-  <h2>Mirrors (4)</h2>
-  <div class="toolbar">
-    <input id="search" type="search" placeholder="Filter by name…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
-    <span id="count"></span>
-  </div>
-  <table class="mirrors">
-    <thead>
-      <tr><th>Title</th><th>Links</th><th class="col-missing">Missing</th><th>Status</th></tr>
-    </thead>
-    <tbody id="mirrors-body">
-        <tr data-search="buriki one buriki-one" data-status="partial"><td class="title"><a href="https://buriki-one.fgcmirror.com">Buriki One</a></td><td class="links"><a href="https://buriki-one.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/buriki-one">source</a> · <a href="http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm" rel="noopener">original</a></td><td class="missing-cell">24</td><td class="status-cell"><span class="badge badge-partial">partial</span></td></tr>
-        <tr data-search="fatal fury: wild ambition (garou densetsu wild ambition) fatal-fury-wild-ambition" data-status="partial"><td class="title"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)</a></td><td class="links"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/fatal-fury-wild-ambition">source</a> · <a href="http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm" rel="noopener">original</a></td><td class="missing-cell">281</td><td class="status-cell"><span class="badge badge-partial">partial</span></td></tr>
-        <tr data-search="neogeo battle coliseum neogeo-battle-coliseum" data-status="preserved"><td class="title"><a href="https://neogeo-battle-coliseum.fgcmirror.com">NeoGeo Battle Coliseum</a></td><td class="links"><a href="https://neogeo-battle-coliseum.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/neogeo-battle-coliseum">source</a> · <a href="https://game.snk-corp.co.jp/official/nbc/" rel="noopener">original</a></td><td class="missing-cell">0</td><td class="status-cell"><span class="badge badge-preserved">preserved</span></td></tr>
-        <tr data-search="the king of fighters xi king-of-fighters-xi" data-status="preserved"><td class="title"><a href="https://king-of-fighters-xi.fgcmirror.com">THE KING OF FIGHTERS XI</a></td><td class="links"><a href="https://king-of-fighters-xi.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/king-of-fighters-xi">source</a> · <a href="https://game.snk-corp.co.jp/official/kof-xi/" rel="noopener">original</a></td><td class="missing-cell">0</td><td class="status-cell"><span class="badge badge-preserved">preserved</span></td></tr>
-    </tbody>
-  </table>
-  <div id="empty">No mirrors match your filter.</div>
+<main class="wrap">
+
+  <section id="home">
+    <div class="section-head">
+      <span class="ix">01 · Index</span>
+      <h2>Mirrors</h2>
+      <span class="pill-count" id="count">— entries</span>
+      <span class="rule"></span>
+      <span class="right">// sorted A–Z</span>
+    </div>
+
+    <div class="toolbar">
+      <label class="search">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input id="q" type="search" placeholder="filter by title or slug…" autocomplete="off">
+      </label>
+      <div class="stamp">filter · <b>title / slug</b></div>
+    </div>
+
+    <table class="data">
+      <thead>
+        <tr><th>Title</th><th>Links</th><th>Missing</th><th>Status</th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="loading" id="loading">loading mirrors</div>
+    <div class="empty" id="empty">// no entries match that query</div>
+  </section>
+
+  <section class="block" id="about">
+    <div class="section-head">
+      <span class="ix">02 · About</span>
+      <h2>The project</h2>
+      <span class="rule"></span>
+      <span class="right">// what we preserve</span>
+    </div>
+    <div class="copy">
+      <p><strong>FGC Mirror</strong> preserves the official websites of fighting games — the character bios, move lists, art galleries and intros that the genre grew up on — so they keep working long after the original servers go dark.</p>
+      <p>Most of these sites are built on technology the modern web has left behind. We rebuild each one from the ground up so opening a mirror today feels exactly like opening the original page did.</p>
+      <p>That includes the Flash. Original animations, intros and character viewers are kept and made playable again in any browser, with no plugin. Every image, sound, font and embedded file is pulled into the repository and served alongside the page — so the mirror is fully self-contained, works offline, and outlives any single host.</p>
+    </div>
+  </section>
+
+  <section class="block" id="help">
+    <div class="section-head">
+      <span class="ix">03 · Contribute</span>
+      <h2>How to help</h2>
+      <span class="rule"></span>
+      <span class="right">// two paths</span>
+    </div>
+    <div class="help-grid">
+      <a class="help-card" href="https://github.com/fgcmirror/.github/issues/new" target="_blank" rel="noopener">
+        <span class="num">/ 01 — request</span>
+        <h3>Request a site to be preserved</h3>
+        <p>Open an issue with the URL. We research the snapshots, capture, rewrite assets, and publish a permanent mirror.</p>
+        <span class="cta">Open an issue <svg width="13" height="9" viewBox="0 0 13 9" fill="none"><path d="M1 4.5h11m0 0L8.5 1m3.5 3.5L8.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+      </a>
+      <a class="help-card" href="https://github.com/fgcmirror" target="_blank" rel="noopener">
+        <span class="num">/ 02 — improve</span>
+        <h3>Improve an existing mirror</h3>
+        <p>Found a missing asset, broken link, or a better snapshot? Open a pull request directly on the per-game repository.</p>
+        <span class="cta">Submit a PR <svg width="13" height="9" viewBox="0 0 13 9" fill="none"><path d="M1 4.5h11m0 0L8.5 1m3.5 3.5L8.5 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></span>
+      </a>
+    </div>
+  </section>
 
   <footer>
-    Source: <a href="https://github.com/fgcmirror">github.com/fgcmirror</a> · Suggest sites: <a href="https://github.com/fgcmirror/.github/issues/new">open an issue</a>
+    <span>fgcmirror · open archive · 2026</span>
+    <span><a href="https://github.com/fgcmirror" target="_blank" rel="noopener">github.com/fgcmirror</a> · <a href="https://github.com/fgcmirror/.github/issues/new" target="_blank" rel="noopener">request a site</a></span>
   </footer>
 
-  <script>
-    (function () {
-      var input = document.getElementById('search');
-      var rows = Array.prototype.slice.call(document.querySelectorAll('#mirrors-body tr'));
-      var count = document.getElementById('count');
-      var empty = document.getElementById('empty');
-      var total = rows.length;
+</main>
 
-      function refresh() {
-        var q = input.value.trim().toLowerCase();
-        var visible = 0;
-        rows.forEach(function (row) {
-          var hit = !q || row.dataset.search.indexOf(q) !== -1;
-          row.classList.toggle('hidden', !hit);
-          if (hit) visible++;
-        });
-        count.textContent = q ? visible + ' of ' + total : total + ' total';
-        empty.classList.toggle('shown', visible === 0);
-      }
+<script>
+const rowsEl = document.getElementById("rows");
+const emptyEl = document.getElementById("empty");
+const loadingEl = document.getElementById("loading");
+const qEl = document.getElementById("q");
+const fmt = n => String(n).padStart(3,"0");
 
-      input.addEventListener('input', refresh);
-      refresh();
-    })();
-  </script>
+let mirrors = [];
+let maxMissing = 1;
+
+const linkIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>`;
+
+function escapeHtml(s){
+  return String(s ?? "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function qbar(missing){
+  if(!missing || missing === 0) return '';
+  const pct = Math.max(8, Math.round((missing / maxMissing) * 100));
+  const cls = missing < 30 ? 'qf-medium' : 'qf-bad';
+  return `<div class="q-track"><div class="q-fill ${cls}" style="width:${pct}%"></div></div>`;
+}
+
+function badgeFor(status){
+  if(status === "preserved") return {cls:"badge-good", dot:"dot-good"};
+  if(status === "partial") return {cls:"badge-medium", dot:"dot-medium"};
+  return {cls:"badge-unknown", dot:"dot-unknown"};
+}
+
+function render(filter=""){
+  const f = filter.trim().toLowerCase();
+  rowsEl.innerHTML = "";
+  let shown = 0;
+  for(const m of mirrors){
+    const title = m.title || m.slug;
+    const slug = m.slug || "";
+    const haystack = (title + " " + slug).toLowerCase();
+    if(f && haystack.indexOf(f) === -1) continue;
+    shown++;
+    const tr = document.createElement("tr");
+    const status = m.status || "unknown";
+    tr.className = status;
+    const b = badgeFor(status);
+    const missing = (m.missing_count == null) ? null : m.missing_count;
+    const missingDisplay = (missing === null) ? "—" : (missing === 0 ? "—" : missing.toLocaleString());
+    const missingZero = (missing === 0 || missing === null) ? "zero" : "";
+    const origCell = m.original_url
+      ? `<a href="${escapeHtml(m.original_url)}" target="_blank" rel="noopener">${linkIcon}original</a>`
+      : "";
+    tr.innerHTML = `
+      <td class="title"><div class="name">${escapeHtml(title)}</div><div class="slug">${escapeHtml(slug)}</div></td>
+      <td class="links">
+        <a href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${linkIcon}visit</a>
+        <a href="${escapeHtml(m.html_url)}" target="_blank" rel="noopener">${linkIcon}source</a>
+        ${origCell}
+      </td>
+      <td class="missing-cell">
+        <div class="miss-val ${missingZero}">${missingDisplay}</div>
+        ${qbar(missing)}
+      </td>
+      <td><span class="badge ${b.cls}"><span class="badge-dot ${b.dot}"></span>${escapeHtml(status)}</span></td>`;
+    rowsEl.appendChild(tr);
+  }
+  emptyEl.classList.toggle("show", shown === 0 && mirrors.length > 0);
+}
+
+async function load(){
+  try{
+    const res = await fetch("data/sites.json", {cache:"no-cache"});
+    if(!res.ok) throw new Error("HTTP " + res.status);
+    let data = await res.json();
+    data.sort((a,b) => (a.title || a.slug).localeCompare(b.title || b.slug));
+    mirrors = data;
+    maxMissing = Math.max(1, ...mirrors.map(m => m.missing_count || 0));
+    const preserved = mirrors.filter(m => m.status === "preserved").length;
+    const partial = mirrors.filter(m => m.status === "partial").length;
+    document.getElementById("hud-total").textContent = fmt(mirrors.length);
+    document.getElementById("hud-preserved").textContent = fmt(preserved);
+    document.getElementById("hud-partial").textContent = fmt(partial);
+    document.getElementById("count").textContent = mirrors.length + " entries";
+    loadingEl.classList.add("hide");
+    render();
+  }catch(err){
+    loadingEl.textContent = "// failed to load mirrors";
+    console.error("FGC Mirror: failed to load data/sites.json", err);
+  }
+}
+
+qEl.addEventListener("input", e => render(e.target.value));
+load();
+
+/* simple scroll-spy for active menu */
+const menuLinks = document.querySelectorAll('nav.menu a[href^="#"]');
+const sectionEls = ['home','about','help'].map(id => document.getElementById(id));
+window.addEventListener('scroll', () => {
+  const y = window.scrollY + 90;
+  let active = sectionEls[0];
+  for(const s of sectionEls){ if(s.offsetTop <= y) active = s; }
+  menuLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + active.id));
+}, {passive:true});
+</script>
 </body>
 </html>
