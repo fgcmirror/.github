@@ -16,8 +16,8 @@
     "description": "Mirror of NeoGeo Battle Coliseum (https://game.snk-corp.co.jp/official/nbc/)",
     "url": "https://neogeo-battle-coliseum.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/neogeo-battle-coliseum",
-    "updated_at": "2026-05-02T20:10:58Z",
-    "pushed_at": "2026-05-02T20:10:52Z",
+    "updated_at": "2026-05-02T23:16:41Z",
+    "pushed_at": "2026-05-02T23:16:36Z",
     "title": "NeoGeo Battle Coliseum",
     "original_url": "https://game.snk-corp.co.jp/official/nbc/",
     "missing_count": 0,
@@ -46,5 +46,29 @@
     "original_url": "https://game.snk-corp.co.jp/official/kof-xi/",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "kof-maximum-impact-regulation-a",
+    "description": "Mirror of KOF Maximum Impact Regulation \"A\" (https://game.snk-corp.co.jp/official/kof-mi-ra/)",
+    "url": "https://kof-maximum-impact-regulation-a.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/kof-maximum-impact-regulation-a",
+    "updated_at": "2026-05-02T23:15:55Z",
+    "pushed_at": "2026-05-02T23:15:50Z",
+    "title": "KOF Maximum Impact Regulation \"A\"",
+    "original_url": "https://game.snk-corp.co.jp/official/kof-mi-ra/",
+    "missing_count": 1,
+    "status": "partial"
+  },
+  {
+    "slug": "kof-maximum-impact-regulation-a-plus",
+    "description": "Mirror of KOF Maximum Impact Regulation \"A\" PLUS (https://game.snk-corp.co.jp/official/kof-mi-ra-plus/)",
+    "url": "https://kof-maximum-impact-regulation-a-plus.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/kof-maximum-impact-regulation-a-plus",
+    "updated_at": "2026-05-02T23:20:49Z",
+    "pushed_at": "2026-05-02T23:20:42Z",
+    "title": "KOF Maximum Impact Regulation \"A\" PLUS",
+    "original_url": "https://game.snk-corp.co.jp/official/kof-mi-ra-plus/",
+    "missing_count": 1,
+    "status": "partial"
   }
 ]
