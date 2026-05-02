@@ -34,5 +34,17 @@
     "original_url": "http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm",
     "missing_count": 24,
     "status": "partial"
+  },
+  {
+    "slug": "king-of-fighters-xi",
+    "description": "Mirror of THE KING OF FIGHTERS XI (https://game.snk-corp.co.jp/official/kof-xi/)",
+    "url": "https://king-of-fighters-xi.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/king-of-fighters-xi",
+    "updated_at": "2026-05-02T22:44:38Z",
+    "pushed_at": "2026-05-02T22:44:33Z",
+    "title": "THE KING OF FIGHTERS XI",
+    "original_url": "https://game.snk-corp.co.jp/official/kof-xi/",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]

@@ -6,13 +6,14 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (3)
+## Mirrors (4)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
 | [Buriki One](https://buriki-one.fgcmirror.com) | [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm) | 24 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com) | [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) | 281 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [THE KING OF FIGHTERS XI](https://king-of-fighters-xi.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-xi) · [original](https://game.snk-corp.co.jp/official/kof-xi/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 
 ## How to help
 
