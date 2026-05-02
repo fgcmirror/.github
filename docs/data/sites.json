@@ -4,9 +4,19 @@
     "description": "Mirror of Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition) (http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm)",
     "url": "https://fatal-fury-wild-ambition.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/fatal-fury-wild-ambition",
-    "updated_at": "2026-05-02T19:11:58Z",
-    "pushed_at": "2026-05-02T19:11:54Z",
+    "updated_at": "2026-05-02T19:37:54Z",
+    "pushed_at": "2026-05-02T19:37:50Z",
     "title": "Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)",
     "original_url": "http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm"
+  },
+  {
+    "slug": "neogeo-battle-coliseum",
+    "description": "Mirror of NeoGeo Battle Coliseum (https://game.snk-corp.co.jp/official/nbc/)",
+    "url": "https://neogeo-battle-coliseum.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/neogeo-battle-coliseum",
+    "updated_at": "2026-05-02T20:10:58Z",
+    "pushed_at": "2026-05-02T20:10:52Z",
+    "title": "NeoGeo Battle Coliseum",
+    "original_url": "https://game.snk-corp.co.jp/official/nbc/"
   }
 ]
