@@ -70,5 +70,17 @@
     "original_url": "https://game.snk-corp.co.jp/official/kof-mi-ra-plus/",
     "missing_count": 1,
     "status": "partial"
+  },
+  {
+    "slug": "king-of-fighters-maximum-impact-2",
+    "description": "Mirror of The King of Fighters: Maximum Impact 2 (https://game.snk-corp.co.jp/official/kof-mi2/)",
+    "url": "https://king-of-fighters-maximum-impact-2.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/king-of-fighters-maximum-impact-2",
+    "updated_at": "2026-05-02T23:47:37Z",
+    "pushed_at": "2026-05-02T23:47:27Z",
+    "title": "The King of Fighters: Maximum Impact 2",
+    "original_url": "https://game.snk-corp.co.jp/official/kof-mi2/",
+    "missing_count": 9,
+    "status": "partial"
   }
 ]

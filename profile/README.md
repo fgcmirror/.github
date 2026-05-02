@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (6)
+## Mirrors (7)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -16,6 +16,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [KOF Maximum Impact Regulation "A" PLUS](https://kof-maximum-impact-regulation-a-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a-plus) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra-plus/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [THE KING OF FIGHTERS XI](https://king-of-fighters-xi.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-xi) · [original](https://game.snk-corp.co.jp/official/kof-xi/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [The King of Fighters: Maximum Impact 2](https://king-of-fighters-maximum-impact-2.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-maximum-impact-2) · [original](https://game.snk-corp.co.jp/official/kof-mi2/) | 9 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 
 ## How to help
 
