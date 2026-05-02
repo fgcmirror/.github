@@ -8,21 +8,28 @@
 <style>
   :root { color-scheme: dark; }
   * { box-sizing: border-box; }
-  body { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; max-width: 760px; margin: 0 auto; padding: 3rem 1.25rem 5rem; line-height: 1.55; color: #e5e5e5; background: #0f0f10; }
+  body { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; max-width: 880px; margin: 0 auto; padding: 3rem 1.25rem 5rem; line-height: 1.55; color: #e5e5e5; background: #0f0f10; }
   h1 { font-size: 2rem; margin: 0 0 .25rem; letter-spacing: -0.5px; }
   h2 { font-size: 1.05rem; text-transform: uppercase; letter-spacing: 1px; opacity: .85; margin-top: 2.5rem; border-bottom: 1px solid #2a2a2c; padding-bottom: .35rem; }
   p { margin: .75rem 0; }
   a { color: #7cc1ff; text-decoration: none; }
   a:hover { text-decoration: underline; }
   a:visited { color: #c9a3ff; }
-  ul.mirrors { list-style: none; padding: 0; margin: 1rem 0 0; }
-  li.mirror { padding: .8rem 0; border-bottom: 1px dashed #2a2a2c; }
-  li.mirror:last-child { border-bottom: none; }
-  li.mirror .links { font-size: .85rem; opacity: .8; margin-top: .25rem; }
-  li.mirror .links a { margin-right: .85rem; }
   .lede { opacity: .85; }
   .cta { background: #1a1a1c; border: 1px solid #2a2a2c; padding: 1rem 1.1rem; border-radius: 6px; margin-top: 1rem; }
   .cta strong { color: #ffd966; }
+  .toolbar { display: flex; align-items: center; gap: .75rem; margin: 1rem 0 .5rem; }
+  #search { flex: 1; min-width: 0; padding: .55rem .8rem; background: #1a1a1c; border: 1px solid #2a2a2c; border-radius: 5px; color: inherit; font: inherit; }
+  #search:focus { outline: none; border-color: #7cc1ff; }
+  #count { font-size: .85rem; opacity: .7; white-space: nowrap; }
+  table.mirrors { width: 100%; border-collapse: collapse; margin-top: .5rem; }
+  table.mirrors th, table.mirrors td { text-align: left; padding: .55rem .65rem; border-bottom: 1px dashed #2a2a2c; vertical-align: top; }
+  table.mirrors th { font-size: .8rem; text-transform: uppercase; letter-spacing: 1px; opacity: .65; border-bottom: 1px solid #3a3a3c; }
+  table.mirrors tr.hidden { display: none; }
+  table.mirrors td.title a { font-weight: 600; }
+  table.mirrors td.links { font-size: .85rem; opacity: .85; white-space: nowrap; }
+  #empty { padding: 1rem .5rem; opacity: .65; display: none; }
+  #empty.shown { display: block; }
   footer { margin-top: 3.5rem; opacity: .55; font-size: .85rem; }
   code { background: #1a1a1c; padding: 1px 6px; border-radius: 3px; }
 </style>
@@ -44,14 +51,49 @@
   </div>
 
   <h2>Mirrors (3)</h2>
-  <ul class="mirrors">
-      <li class="mirror"><strong><a href="https://buriki-one.fgcmirror.com">Buriki One</a></strong><div class="links"><a href="https://buriki-one.fgcmirror.com">visit mirror</a><a href="https://github.com/fgcmirror/buriki-one">source repo</a><a href="http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm" rel="noopener">original URL</a></div></li>
-      <li class="mirror"><strong><a href="https://fatal-fury-wild-ambition.fgcmirror.com">Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)</a></strong><div class="links"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">visit mirror</a><a href="https://github.com/fgcmirror/fatal-fury-wild-ambition">source repo</a><a href="http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm" rel="noopener">original URL</a></div></li>
-      <li class="mirror"><strong><a href="https://neogeo-battle-coliseum.fgcmirror.com">NeoGeo Battle Coliseum</a></strong><div class="links"><a href="https://neogeo-battle-coliseum.fgcmirror.com">visit mirror</a><a href="https://github.com/fgcmirror/neogeo-battle-coliseum">source repo</a><a href="https://game.snk-corp.co.jp/official/nbc/" rel="noopener">original URL</a></div></li>
-  </ul>
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Filter by name…" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+    <span id="count"></span>
+  </div>
+  <table class="mirrors">
+    <thead>
+      <tr><th>Title</th><th>Links</th></tr>
+    </thead>
+    <tbody id="mirrors-body">
+        <tr data-search="buriki one buriki-one"><td class="title"><a href="https://buriki-one.fgcmirror.com">Buriki One</a></td><td class="links"><a href="https://buriki-one.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/buriki-one">source</a> · <a href="http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm" rel="noopener">original</a></td></tr>
+        <tr data-search="fatal fury: wild ambition (garou densetsu wild ambition) fatal-fury-wild-ambition"><td class="title"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)</a></td><td class="links"><a href="https://fatal-fury-wild-ambition.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/fatal-fury-wild-ambition">source</a> · <a href="http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm" rel="noopener">original</a></td></tr>
+        <tr data-search="neogeo battle coliseum neogeo-battle-coliseum"><td class="title"><a href="https://neogeo-battle-coliseum.fgcmirror.com">NeoGeo Battle Coliseum</a></td><td class="links"><a href="https://neogeo-battle-coliseum.fgcmirror.com">visit</a> · <a href="https://github.com/fgcmirror/neogeo-battle-coliseum">source</a> · <a href="https://game.snk-corp.co.jp/official/nbc/" rel="noopener">original</a></td></tr>
+    </tbody>
+  </table>
+  <div id="empty">No mirrors match your filter.</div>
 
   <footer>
     Source: <a href="https://github.com/fgcmirror">github.com/fgcmirror</a> · Suggest sites: <a href="https://github.com/fgcmirror/.github/issues/new">open an issue</a>
   </footer>
+
+  <script>
+    (function () {
+      var input = document.getElementById('search');
+      var rows = Array.prototype.slice.call(document.querySelectorAll('#mirrors-body tr'));
+      var count = document.getElementById('count');
+      var empty = document.getElementById('empty');
+      var total = rows.length;
+
+      function refresh() {
+        var q = input.value.trim().toLowerCase();
+        var visible = 0;
+        rows.forEach(function (row) {
+          var hit = !q || row.dataset.search.indexOf(q) !== -1;
+          row.classList.toggle('hidden', !hit);
+          if (hit) visible++;
+        });
+        count.textContent = q ? visible + ' of ' + total : total + ' total';
+        empty.classList.toggle('shown', visible === 0);
+      }
+
+      input.addEventListener('input', refresh);
+      refresh();
+    })();
+  </script>
 </body>
 </html>

@@ -4,13 +4,15 @@
 
 Many of the sites that documented fighting games — character pages, move lists, official sites, fan portals — are dead or one server migration away from being lost. **fgcmirror** archives them as static, fully self-contained mirrors served from this organization.
 
-🌐 **Index & search:** <https://fgcmirror.com>
+🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
 ## Mirrors (3)
 
-- **[Buriki One](https://buriki-one.fgcmirror.com)** · [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm)
-- **[Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com)** · [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm)
-- **[NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com)** · [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/)
+| Title | Repository | Original |
+| --- | --- | --- |
+| [Buriki One](https://buriki-one.fgcmirror.com) | [source](https://github.com/fgcmirror/buriki-one) | [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm) |
+| [Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com) | [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) | [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) |
+| [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) | [original](https://game.snk-corp.co.jp/official/nbc/) |
 
 ## How to help
 
