@@ -94,5 +94,17 @@
     "original_url": "https://game.snk-corp.co.jp/official/kof98um/",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "super-street-fighter-ii-turbo-gba",
+    "description": "Mirror of Super Street Fighter II Turbo Revival (GBA) (http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/)",
+    "url": "https://super-street-fighter-ii-turbo-gba.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/super-street-fighter-ii-turbo-gba",
+    "updated_at": "2026-05-02T23:56:17Z",
+    "pushed_at": "2026-05-02T23:56:13Z",
+    "title": "Super Street Fighter II Turbo Revival (GBA)",
+    "original_url": "http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
