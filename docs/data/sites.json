@@ -18,5 +18,15 @@
     "pushed_at": "2026-05-02T20:10:52Z",
     "title": "NeoGeo Battle Coliseum",
     "original_url": "https://game.snk-corp.co.jp/official/nbc/"
+  },
+  {
+    "slug": "buriki-one",
+    "description": "Mirror of Buriki One (http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm)",
+    "url": "https://buriki-one.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/buriki-one",
+    "updated_at": "2026-05-02T21:10:02Z",
+    "pushed_at": "2026-05-02T21:09:58Z",
+    "title": "Buriki One",
+    "original_url": "http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm"
   }
 ]

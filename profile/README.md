@@ -6,8 +6,9 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Index & search:** <https://fgcmirror.com>
 
-## Mirrors (2)
+## Mirrors (3)
 
+- **[Buriki One](https://buriki-one.fgcmirror.com)** · [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm)
 - **[Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com)** · [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm)
 - **[NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com)** · [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/)
 
