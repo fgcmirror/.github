@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (17)
+## Mirrors (18)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -27,6 +27,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [THE KING OF FIGHTERS '98 ULTIMATE MATCH](https://king-of-fighters-98-ultimate-match.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-98-ultimate-match) · [original](https://game.snk-corp.co.jp/official/kof98um/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [THE KING OF FIGHTERS XI](https://king-of-fighters-xi.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-xi) · [original](https://game.snk-corp.co.jp/official/kof-xi/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [The King of Fighters: Maximum Impact 2](https://king-of-fighters-maximum-impact-2.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-maximum-impact-2) · [original](https://game.snk-corp.co.jp/official/kof-mi2/) | 9 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Ultimate Mortal Kombat 3 (iPad)](https://ultimate-mortal-kombat-3-ipad.fgcmirror.com) | [source](https://github.com/fgcmirror/ultimate-mortal-kombat-3-ipad) · [original](http://www.ea.com/au/ultimate-mortal-kombat-3-ipad) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 
 ## How to help
 

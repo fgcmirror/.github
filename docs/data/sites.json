@@ -219,5 +219,18 @@
     "category": "official-game",
     "missing_count": 70,
     "status": "partial"
+  },
+  {
+    "slug": "ultimate-mortal-kombat-3-ipad",
+    "description": "Mirror of Ultimate Mortal Kombat 3 (iPad) (http://www.ea.com/au/ultimate-mortal-kombat-3-ipad)",
+    "url": "https://ultimate-mortal-kombat-3-ipad.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/ultimate-mortal-kombat-3-ipad",
+    "updated_at": "2026-05-03T17:25:27Z",
+    "pushed_at": "2026-05-03T17:25:23Z",
+    "title": "Ultimate Mortal Kombat 3 (iPad)",
+    "original_url": "http://www.ea.com/au/ultimate-mortal-kombat-3-ipad",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
