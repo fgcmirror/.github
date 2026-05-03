@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (10)
+## Mirrors (11)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -14,6 +14,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com) | [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) | 281 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [KOF Maximum Impact Regulation "A"](https://kof-maximum-impact-regulation-a.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [KOF Maximum Impact Regulation "A" PLUS](https://kof-maximum-impact-regulation-a-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a-plus) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra-plus/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Mortal Kombat Gold (Eurocom product page)](https://mortal-kombat-gold.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-gold) · [original](http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold) | 48 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter X Mega Man](https://street-fighter-x-mega-man.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-mega-man) · [original](https://megaman.capcom.com/sfxmm/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Super Street Fighter II Turbo Revival (GBA)](https://super-street-fighter-ii-turbo-gba.fgcmirror.com) | [source](https://github.com/fgcmirror/super-street-fighter-ii-turbo-gba) · [original](http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |

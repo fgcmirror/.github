@@ -118,5 +118,17 @@
     "original_url": "https://megaman.capcom.com/sfxmm/",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "mortal-kombat-gold",
+    "description": "Mirror of Mortal Kombat Gold (Eurocom product page) (http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold)",
+    "url": "https://mortal-kombat-gold.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/mortal-kombat-gold",
+    "updated_at": "2026-05-03T09:00:30Z",
+    "pushed_at": "2026-05-03T09:00:25Z",
+    "title": "Mortal Kombat Gold (Eurocom product page)",
+    "original_url": "http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold",
+    "missing_count": 48,
+    "status": "partial"
   }
 ]
