@@ -130,5 +130,17 @@
     "original_url": "http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold",
     "missing_count": 48,
     "status": "partial"
+  },
+  {
+    "slug": "mortal-kombat-mythologies-sub-zero",
+    "description": "Mirror of Mortal Kombat Mythologies: Sub-Zero (http://mythologies.dragondata.com/)",
+    "url": "https://mortal-kombat-mythologies-sub-zero.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/mortal-kombat-mythologies-sub-zero",
+    "updated_at": "2026-05-03T09:01:16Z",
+    "pushed_at": "2026-05-03T09:01:12Z",
+    "title": "Mortal Kombat Mythologies: Sub-Zero",
+    "original_url": "http://mythologies.dragondata.com/",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
