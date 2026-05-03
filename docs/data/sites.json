@@ -180,5 +180,18 @@
     "category": "official-game",
     "missing_count": 13,
     "status": "partial"
+  },
+  {
+    "slug": "hyper-street-fighter-ii-ps2",
+    "description": "Mirror of Hyper Street Fighter II: The Anniversary Edition (PS2) (http://www.capcom.co.jp/hyper_sf2/index.html)",
+    "url": "https://hyper-street-fighter-ii-ps2.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/hyper-street-fighter-ii-ps2",
+    "updated_at": "2026-05-03T11:02:33Z",
+    "pushed_at": "2026-05-03T11:02:29Z",
+    "title": "Hyper Street Fighter II: The Anniversary Edition (PS2)",
+    "original_url": "http://www.capcom.co.jp/hyper_sf2/index.html",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]

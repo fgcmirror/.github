@@ -6,12 +6,13 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (14)
+## Mirrors (15)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
 | [Buriki One](https://buriki-one.fgcmirror.com) | [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm) | 24 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com) | [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) | 281 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Hyper Street Fighter II: The Anniversary Edition (PS2)](https://hyper-street-fighter-ii-ps2.fgcmirror.com) | [source](https://github.com/fgcmirror/hyper-street-fighter-ii-ps2) · [original](http://www.capcom.co.jp/hyper_sf2/index.html) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [KOF Maximum Impact Regulation "A"](https://kof-maximum-impact-regulation-a.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [KOF Maximum Impact Regulation "A" PLUS](https://kof-maximum-impact-regulation-a-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a-plus) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra-plus/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat Gold (Eurocom product page)](https://mortal-kombat-gold.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-gold) · [original](http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold) | 48 | ![partial](https://img.shields.io/badge/-partial-yellow) |
