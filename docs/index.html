@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>FGC Mirror — preserving fighting-game websites</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Preserving the official websites of fighting games — character bios, move lists, art galleries, intros — so they keep working long after the original servers go dark.">
+<meta name="description" content="Preserving fighting-game websites — official game promo pages and historical community fansites — so they keep working long after the original servers go dark.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
@@ -165,8 +165,14 @@
   table.data tbody td:first-child{border-radius:6px 0 0 6px}
   table.data tbody td:last-child{border-radius:0 6px 6px 0;text-align:right}
 
-  td.title .name{font-family:'Saira',sans-serif;font-size:13px;font-weight:600;color:var(--text-primary);letter-spacing:.005em}
+  td.title .name{font-family:'Saira',sans-serif;font-size:13px;font-weight:600;color:var(--text-primary);letter-spacing:.005em;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   td.title .slug{font-size:10px;color:var(--text-muted);margin-top:2px;font-style:italic}
+  .cat-badge{
+    font-family:'JetBrains Mono',monospace;font-size:9px;font-weight:500;letter-spacing:.06em;text-transform:lowercase;
+    padding:2px 7px;border-radius:3px;line-height:1.4;
+  }
+  .cat-official{color:var(--text-secondary);background:var(--bg-elevated);border:1px solid var(--border)}
+  .cat-fansite{color:#f9a8d4;background:rgba(247,131,192,.08);border:1px solid rgba(247,131,192,.22)}
 
   td.links{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.04em}
   td.links a{
@@ -336,9 +342,9 @@
       <span class="right">// what we preserve</span>
     </div>
     <div class="copy">
-      <p><strong>FGC Mirror</strong> preserves the official websites of fighting games — the character bios, move lists, art galleries and intros that the genre grew up on — so they keep working long after the original servers go dark.</p>
-      <p>Most of these sites are built on technology the modern web has left behind. We rebuild each one from the ground up so opening a mirror today feels exactly like opening the original page did.</p>
-      <p>That includes the Flash. Original animations, intros and character viewers are kept and made playable again in any browser, with no plugin. Every image, sound, font and embedded file is pulled into the repository and served alongside the page — so the mirror is fully self-contained, works offline, and outlives any single host.</p>
+      <p><strong>FGC Mirror</strong> preserves the websites that the fighting-game scene grew up on — so they keep working long after the original servers go dark.</p>
+      <p>The catalogue covers two kinds of sites. <strong>Official game pages</strong> — the publisher- and developer-run promo sites for individual games, with their character bios, move lists, art galleries and intros. And <strong>historical fansites</strong> — community-run reference sites that became canonical for a series before going down (forums and other interactive components are intentionally out of scope; the read-only archive is what gets preserved).</p>
+      <p>Most of these sites are built on technology the modern web has left behind. We rebuild each one from the ground up so opening a mirror today feels exactly like opening the original page did. That includes the Flash. Original animations, intros and character viewers are kept and made playable again in any browser, with no plugin. Every image, sound, font and embedded file is pulled into the repository and served alongside the page — so the mirror is fully self-contained, works offline, and outlives any single host.</p>
     </div>
   </section>
 
@@ -421,8 +427,11 @@ function render(filter=""){
     const origCell = m.original_url
       ? `<a href="${escapeHtml(m.original_url)}" target="_blank" rel="noopener">${linkIcon}original</a>`
       : "";
+    const category = m.category || "official-game";
+    const catLabel = category === "fansite" ? "fansite" : "official";
+    const catCls = category === "fansite" ? "cat-fansite" : "cat-official";
     tr.innerHTML = `
-      <td class="title"><div class="name">${escapeHtml(title)}</div><div class="slug">${escapeHtml(slug)}</div></td>
+      <td class="title"><div class="name">${escapeHtml(title)}<span class="cat-badge ${catCls}">${catLabel}</span></div><div class="slug">${escapeHtml(slug)}</div></td>
       <td class="links">
         <a href="${escapeHtml(m.url)}" target="_blank" rel="noopener">${linkIcon}visit</a>
         <a href="${escapeHtml(m.html_url)}" target="_blank" rel="noopener">${linkIcon}source</a>

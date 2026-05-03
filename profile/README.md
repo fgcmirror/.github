@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (12)
+## Mirrors (13)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -18,6 +18,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat Mythologies: Sub-Zero](https://mortal-kombat-mythologies-sub-zero.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-mythologies-sub-zero) · [original](http://mythologies.dragondata.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter X Mega Man](https://street-fighter-x-mega-man.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-mega-man) · [original](https://megaman.capcom.com/sfxmm/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [Street Fighter X Tekken](https://street-fighter-x-tekken.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-tekken) · [original](http://www.streetfighter.com/sfxtk/) | 46 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Super Street Fighter II Turbo Revival (GBA)](https://super-street-fighter-ii-turbo-gba.fgcmirror.com) | [source](https://github.com/fgcmirror/super-street-fighter-ii-turbo-gba) · [original](http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [THE KING OF FIGHTERS '98 ULTIMATE MATCH](https://king-of-fighters-98-ultimate-match.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-98-ultimate-match) · [original](https://game.snk-corp.co.jp/official/kof98um/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [THE KING OF FIGHTERS XI](https://king-of-fighters-xi.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-xi) · [original](https://game.snk-corp.co.jp/official/kof-xi/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |

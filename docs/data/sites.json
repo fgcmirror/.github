@@ -8,6 +8,7 @@
     "pushed_at": "2026-05-02T19:37:50Z",
     "title": "Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)",
     "original_url": "http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm",
+    "category": "official-game",
     "missing_count": 281,
     "status": "partial"
   },
@@ -20,6 +21,7 @@
     "pushed_at": "2026-05-02T23:16:36Z",
     "title": "NeoGeo Battle Coliseum",
     "original_url": "https://game.snk-corp.co.jp/official/nbc/",
+    "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
   },
@@ -32,6 +34,7 @@
     "pushed_at": "2026-05-02T21:09:58Z",
     "title": "Buriki One",
     "original_url": "http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm",
+    "category": "official-game",
     "missing_count": 24,
     "status": "partial"
   },
@@ -44,6 +47,7 @@
     "pushed_at": "2026-05-02T22:44:33Z",
     "title": "THE KING OF FIGHTERS XI",
     "original_url": "https://game.snk-corp.co.jp/official/kof-xi/",
+    "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
   },
@@ -56,6 +60,7 @@
     "pushed_at": "2026-05-02T23:15:50Z",
     "title": "KOF Maximum Impact Regulation \"A\"",
     "original_url": "https://game.snk-corp.co.jp/official/kof-mi-ra/",
+    "category": "official-game",
     "missing_count": 1,
     "status": "partial"
   },
@@ -68,6 +73,7 @@
     "pushed_at": "2026-05-03T00:26:48Z",
     "title": "KOF Maximum Impact Regulation \"A\" PLUS",
     "original_url": "https://game.snk-corp.co.jp/official/kof-mi-ra-plus/",
+    "category": "official-game",
     "missing_count": 1,
     "status": "partial"
   },
@@ -80,6 +86,7 @@
     "pushed_at": "2026-05-02T23:47:27Z",
     "title": "The King of Fighters: Maximum Impact 2",
     "original_url": "https://game.snk-corp.co.jp/official/kof-mi2/",
+    "category": "official-game",
     "missing_count": 9,
     "status": "partial"
   },
@@ -92,6 +99,7 @@
     "pushed_at": "2026-05-02T23:52:21Z",
     "title": "THE KING OF FIGHTERS '98 ULTIMATE MATCH",
     "original_url": "https://game.snk-corp.co.jp/official/kof98um/",
+    "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
   },
@@ -104,6 +112,7 @@
     "pushed_at": "2026-05-02T23:56:13Z",
     "title": "Super Street Fighter II Turbo Revival (GBA)",
     "original_url": "http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/",
+    "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
   },
@@ -116,6 +125,7 @@
     "pushed_at": "2026-05-03T00:47:06Z",
     "title": "Street Fighter X Mega Man",
     "original_url": "https://megaman.capcom.com/sfxmm/",
+    "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
   },
@@ -128,6 +138,7 @@
     "pushed_at": "2026-05-03T09:00:25Z",
     "title": "Mortal Kombat Gold (Eurocom product page)",
     "original_url": "http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold",
+    "category": "official-game",
     "missing_count": 48,
     "status": "partial"
   },
@@ -140,7 +151,21 @@
     "pushed_at": "2026-05-03T09:01:12Z",
     "title": "Mortal Kombat Mythologies: Sub-Zero",
     "original_url": "http://mythologies.dragondata.com/",
+    "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "street-fighter-x-tekken",
+    "description": "Mirror of Street Fighter X Tekken (http://www.streetfighter.com/sfxtk/)",
+    "url": "https://street-fighter-x-tekken.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-x-tekken",
+    "updated_at": "2026-05-03T09:49:40Z",
+    "pushed_at": "2026-05-03T09:49:36Z",
+    "title": "Street Fighter X Tekken",
+    "original_url": "http://www.streetfighter.com/sfxtk/",
+    "category": "official-game",
+    "missing_count": 46,
+    "status": "partial"
   }
 ]
