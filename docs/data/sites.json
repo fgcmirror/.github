@@ -167,5 +167,18 @@
     "category": "official-game",
     "missing_count": 46,
     "status": "partial"
+  },
+  {
+    "slug": "mortal-kombat-deception",
+    "description": "Mirror of Mortal Kombat: Deception (http://www.mkdeception.com/)",
+    "url": "https://mortal-kombat-deception.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/mortal-kombat-deception",
+    "updated_at": "2026-05-03T10:24:06Z",
+    "pushed_at": "2026-05-03T10:24:00Z",
+    "title": "Mortal Kombat: Deception",
+    "original_url": "http://www.mkdeception.com/",
+    "category": "official-game",
+    "missing_count": 13,
+    "status": "partial"
   }
 ]
