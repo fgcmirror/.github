@@ -6,11 +6,11 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (15)
+## Mirrors (17)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
-| [Buriki One](https://buriki-one.fgcmirror.com) | [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm) | 24 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Buriki One](https://buriki-one.fgcmirror.com) | [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm) | 17 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com) | [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) | 281 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Hyper Street Fighter II: The Anniversary Edition (PS2)](https://hyper-street-fighter-ii-ps2.fgcmirror.com) | [source](https://github.com/fgcmirror/hyper-street-fighter-ii-ps2) · [original](http://www.capcom.co.jp/hyper_sf2/index.html) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [KOF Maximum Impact Regulation "A"](https://kof-maximum-impact-regulation-a.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
@@ -19,6 +19,8 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat Mythologies: Sub-Zero](https://mortal-kombat-mythologies-sub-zero.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-mythologies-sub-zero) · [original](http://mythologies.dragondata.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Mortal Kombat: Deception](https://mortal-kombat-deception.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deception) · [original](http://www.mkdeception.com/) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [Street Fighter III W Impact (Dreamcast)](https://street-fighter-iii-w-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-w-impact) · [original](http://www.capcom.co.jp/newproducts/consumer/sf3w/) | 70 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter III: 2nd Impact - Giant Attack](https://street-fighter-iii-2nd-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-2nd-impact) · [original](http://www.capcom.co.jp/newproducts/arcade/st3-2nd/chara.html) | 29 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter X Mega Man](https://street-fighter-x-mega-man.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-mega-man) · [original](https://megaman.capcom.com/sfxmm/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter X Tekken](https://street-fighter-x-tekken.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-tekken) · [original](http://www.streetfighter.com/sfxtk/) | 46 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Super Street Fighter II Turbo Revival (GBA)](https://super-street-fighter-ii-turbo-gba.fgcmirror.com) | [source](https://github.com/fgcmirror/super-street-fighter-ii-turbo-gba) · [original](http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |

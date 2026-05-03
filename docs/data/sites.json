@@ -30,12 +30,12 @@
     "description": "Mirror of Buriki One (http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm)",
     "url": "https://buriki-one.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/buriki-one",
-    "updated_at": "2026-05-02T21:10:02Z",
-    "pushed_at": "2026-05-02T21:09:58Z",
+    "updated_at": "2026-05-03T13:02:27Z",
+    "pushed_at": "2026-05-03T13:02:22Z",
     "title": "Buriki One",
     "original_url": "http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm",
     "category": "official-game",
-    "missing_count": 24,
+    "missing_count": 17,
     "status": "partial"
   },
   {
@@ -193,5 +193,31 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "street-fighter-iii-2nd-impact",
+    "description": "Mirror of Street Fighter III: 2nd Impact - Giant Attack (http://www.capcom.co.jp/newproducts/arcade/st3-2nd/chara.html)",
+    "url": "https://street-fighter-iii-2nd-impact.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-iii-2nd-impact",
+    "updated_at": "2026-05-03T15:21:01Z",
+    "pushed_at": "2026-05-03T15:20:57Z",
+    "title": "Street Fighter III: 2nd Impact - Giant Attack",
+    "original_url": "http://www.capcom.co.jp/newproducts/arcade/st3-2nd/chara.html",
+    "category": "official-game",
+    "missing_count": 29,
+    "status": "partial"
+  },
+  {
+    "slug": "street-fighter-iii-w-impact",
+    "description": "Mirror of Street Fighter III W Impact (Dreamcast) (http://www.capcom.co.jp/newproducts/consumer/sf3w/)",
+    "url": "https://street-fighter-iii-w-impact.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-iii-w-impact",
+    "updated_at": "2026-05-03T15:21:15Z",
+    "pushed_at": "2026-05-03T15:21:09Z",
+    "title": "Street Fighter III W Impact (Dreamcast)",
+    "original_url": "http://www.capcom.co.jp/newproducts/consumer/sf3w/",
+    "category": "official-game",
+    "missing_count": 70,
+    "status": "partial"
   }
 ]
