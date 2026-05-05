@@ -336,5 +336,18 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "street-fighter-anniversary-collection",
+    "description": "Mirror of Street Fighter Anniversary Collection (http://ww2.capcom.com/sfac/)",
+    "url": "https://street-fighter-anniversary-collection.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-anniversary-collection",
+    "updated_at": "2026-05-05T23:36:31Z",
+    "pushed_at": "2026-05-05T23:36:26Z",
+    "title": "Street Fighter Anniversary Collection",
+    "original_url": "http://ww2.capcom.com/sfac/",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]

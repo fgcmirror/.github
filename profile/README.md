@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (26)
+## Mirrors (27)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -23,6 +23,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat: Deadly Alliance](https://mortal-kombat-deadly-alliance.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deadly-alliance) · [original](http://www.mortalkombat.midway.com/mortalkombatdeadlyalliance/intro.html) | 77 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat: Deception](https://mortal-kombat-deception.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deception) · [original](http://www.mkdeception.com/) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [Street Fighter Anniversary Collection](https://street-fighter-anniversary-collection.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-anniversary-collection) · [original](http://ww2.capcom.com/sfac/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter EX2](https://street-fighter-ex2.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2) · [original](http://www.arika.co.jp/prod/ex2index.html) | 31 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter EX2 Plus](https://street-fighter-ex2-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2-plus) · [original](http://www.arika.co.jp/prod/ex2p_index.html) | 255 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III W Impact (Dreamcast)](https://street-fighter-iii-w-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-w-impact) · [original](http://www.capcom.co.jp/newproducts/consumer/sf3w/) | 70 | ![partial](https://img.shields.io/badge/-partial-yellow) |
