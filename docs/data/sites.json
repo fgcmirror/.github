@@ -323,5 +323,18 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "ultra-street-fighter-iv",
+    "description": "Mirror of Ultra Street Fighter IV (http://www.streetfighter.com/us/usfiv)",
+    "url": "https://ultra-street-fighter-iv.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/ultra-street-fighter-iv",
+    "updated_at": "2026-05-05T11:05:26Z",
+    "pushed_at": "2026-05-05T11:05:22Z",
+    "title": "Ultra Street Fighter IV",
+    "original_url": "http://www.streetfighter.com/us/usfiv",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
