@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (27)
+## Mirrors (28)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -16,6 +16,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [KOF Maximum Impact Regulation "A"](https://kof-maximum-impact-regulation-a.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [KOF Maximum Impact Regulation "A" PLUS](https://kof-maximum-impact-regulation-a-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/kof-maximum-impact-regulation-a-plus) · [original](https://game.snk-corp.co.jp/official/kof-mi-ra-plus/) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat 4](https://mortal-kombat-4.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-4) · [original](http://www.mk4.com/) | 107 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Mortal Kombat Arcade Kollection (Other Ocean PC port)](https://mortal-kombat-arcade-kollection.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-arcade-kollection) · [original](http://www.otherocean.com/products/mortal-kombat-arcade-kollection) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Mortal Kombat Gold](https://mortal-kombat-gold.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-gold) · [original](http://www.mk4.com/mikicic/index.html) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Mortal Kombat Gold (Eurocom product page)](https://mortal-kombat-gold-eurocom.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-gold-eurocom) · [original](http://www.eurocom.co.uk/index.php/video-games/mortal-kombat-gold) | 48 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat Mythologies: Sub-Zero](https://mortal-kombat-mythologies-sub-zero.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-mythologies-sub-zero) · [original](http://mythologies.dragondata.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |

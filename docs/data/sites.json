@@ -349,5 +349,18 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "mortal-kombat-arcade-kollection",
+    "description": "Mirror of Mortal Kombat Arcade Kollection (Other Ocean PC port) (http://www.otherocean.com/products/mortal-kombat-arcade-kollection)",
+    "url": "https://mortal-kombat-arcade-kollection.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/mortal-kombat-arcade-kollection",
+    "updated_at": "2026-05-05T23:37:52Z",
+    "pushed_at": "2026-05-05T23:37:47Z",
+    "title": "Mortal Kombat Arcade Kollection (Other Ocean PC port)",
+    "original_url": "http://www.otherocean.com/products/mortal-kombat-arcade-kollection",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
