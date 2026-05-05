@@ -36,7 +36,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [The King of Fighters: Maximum Impact 2](https://king-of-fighters-maximum-impact-2.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-maximum-impact-2) · [original](https://game.snk-corp.co.jp/official/kof-mi2/) | 9 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [tooling](https://tooling.fgcmirror.com) | [source](https://github.com/fgcmirror/tooling) · — | — | ![unknown](https://img.shields.io/badge/-unknown-lightgrey) |
 | [Ultimate Mortal Kombat 3 (iPad)](https://ultimate-mortal-kombat-3-ipad.fgcmirror.com) | [source](https://github.com/fgcmirror/ultimate-mortal-kombat-3-ipad) · [original](http://www.ea.com/au/ultimate-mortal-kombat-3-ipad) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
-| [Vampire Resurrection](https://vampire-resurrection.fgcmirror.com) | [source](https://github.com/fgcmirror/vampire-resurrection) · [original](http://www.capcom.co.jp/VR/) | 55 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Vampire Resurrection](https://vampire-resurrection.fgcmirror.com) | [source](https://github.com/fgcmirror/vampire-resurrection) · [original](http://www.capcom.co.jp/VR/) | 72 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 
 ## How to help
 

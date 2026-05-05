@@ -238,8 +238,8 @@
     "description": "Orchestration scripts for fgcmirror site preservation (sites/<slug>/ are separate public repos under the same org)",
     "url": "https://tooling.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/tooling",
-    "updated_at": "2026-05-03T23:35:13Z",
-    "pushed_at": "2026-05-03T23:35:09Z",
+    "updated_at": "2026-05-05T10:03:44Z",
+    "pushed_at": "2026-05-05T10:03:40Z",
     "missing_count": null,
     "status": "unknown",
     "category": "official-game"
@@ -312,12 +312,12 @@
     "description": "Mirror of Vampire Resurrection (http://www.capcom.co.jp/VR/)",
     "url": "https://vampire-resurrection.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/vampire-resurrection",
-    "updated_at": "2026-05-04T10:36:09Z",
-    "pushed_at": "2026-05-04T10:36:04Z",
+    "updated_at": "2026-05-05T10:03:21Z",
+    "pushed_at": "2026-05-05T10:03:16Z",
     "title": "Vampire Resurrection",
     "original_url": "http://www.capcom.co.jp/VR/",
     "category": "official-game",
-    "missing_count": 55,
+    "missing_count": 72,
     "status": "partial"
   },
   {
