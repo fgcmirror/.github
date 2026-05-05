@@ -234,28 +234,6 @@
     "status": "preserved"
   },
   {
-    "slug": "tooling",
-    "description": "Orchestration scripts for fgcmirror site preservation (sites/<slug>/ are separate public repos under the same org)",
-    "url": "https://tooling.fgcmirror.com",
-    "html_url": "https://github.com/fgcmirror/tooling",
-    "updated_at": "2026-05-05T10:03:44Z",
-    "pushed_at": "2026-05-05T10:03:40Z",
-    "missing_count": null,
-    "status": "unknown",
-    "category": "official-game"
-  },
-  {
-    "slug": "buchada",
-    "description": "Admin app for fgcmirror at buchada.fgcmirror.com (Laravel scaffold lands once we resume server-side work)",
-    "url": "https://buchada.fgcmirror.com",
-    "html_url": "https://github.com/fgcmirror/buchada",
-    "updated_at": "2026-05-03T23:35:15Z",
-    "pushed_at": "2026-05-03T23:35:11Z",
-    "missing_count": null,
-    "status": "unknown",
-    "category": "official-game"
-  },
-  {
     "slug": "mortal-kombat-deadly-alliance",
     "description": "Mirror of Mortal Kombat: Deadly Alliance (http://www.mortalkombat.midway.com/mortalkombatdeadlyalliance/intro.html)",
     "url": "https://mortal-kombat-deadly-alliance.fgcmirror.com",

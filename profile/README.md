@@ -6,11 +6,10 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (27)
+## Mirrors (25)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
-| [buchada](https://buchada.fgcmirror.com) | [source](https://github.com/fgcmirror/buchada) · — | — | ![unknown](https://img.shields.io/badge/-unknown-lightgrey) |
 | [Buriki One](https://buriki-one.fgcmirror.com) | [source](https://github.com/fgcmirror/buriki-one) · [original](http://www.neogeo.co.jp/buriki-one/buriki-one_index.htm) | 17 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Fatal Fury: Wild Ambition (Garou Densetsu Wild Ambition)](https://fatal-fury-wild-ambition.fgcmirror.com) | [source](https://github.com/fgcmirror/fatal-fury-wild-ambition) · [original](http://www.neogeo.co.jp/garou/wild_ambition/wild-ambition-index.htm) | 281 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Hyper Street Fighter II: The Anniversary Edition (PS2)](https://hyper-street-fighter-ii-ps2.fgcmirror.com) | [source](https://github.com/fgcmirror/hyper-street-fighter-ii-ps2) · [original](http://www.capcom.co.jp/hyper_sf2/index.html) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
@@ -34,7 +33,6 @@ Many of the sites that documented fighting games — character pages, move lists
 | [THE KING OF FIGHTERS '98 ULTIMATE MATCH](https://king-of-fighters-98-ultimate-match.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-98-ultimate-match) · [original](https://game.snk-corp.co.jp/official/kof98um/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [THE KING OF FIGHTERS XI](https://king-of-fighters-xi.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-xi) · [original](https://game.snk-corp.co.jp/official/kof-xi/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [The King of Fighters: Maximum Impact 2](https://king-of-fighters-maximum-impact-2.fgcmirror.com) | [source](https://github.com/fgcmirror/king-of-fighters-maximum-impact-2) · [original](https://game.snk-corp.co.jp/official/kof-mi2/) | 9 | ![partial](https://img.shields.io/badge/-partial-yellow) |
-| [tooling](https://tooling.fgcmirror.com) | [source](https://github.com/fgcmirror/tooling) · — | — | ![unknown](https://img.shields.io/badge/-unknown-lightgrey) |
 | [Ultimate Mortal Kombat 3 (iPad)](https://ultimate-mortal-kombat-3-ipad.fgcmirror.com) | [source](https://github.com/fgcmirror/ultimate-mortal-kombat-3-ipad) · [original](http://www.ea.com/au/ultimate-mortal-kombat-3-ipad) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Vampire Resurrection](https://vampire-resurrection.fgcmirror.com) | [source](https://github.com/fgcmirror/vampire-resurrection) · [original](http://www.capcom.co.jp/VR/) | 72 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 
