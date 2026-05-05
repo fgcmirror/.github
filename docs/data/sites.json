@@ -362,5 +362,18 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "mortal-kombat-shaolin-monks",
+    "description": "Mirror of Mortal Kombat: Shaolin Monks (http://www.mkmonks.com/)",
+    "url": "https://mortal-kombat-shaolin-monks.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/mortal-kombat-shaolin-monks",
+    "updated_at": "2026-05-05T23:54:23Z",
+    "pushed_at": "2026-05-05T23:54:19Z",
+    "title": "Mortal Kombat: Shaolin Monks",
+    "original_url": "http://www.mkmonks.com/",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]

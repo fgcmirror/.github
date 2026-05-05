@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (28)
+## Mirrors (29)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -23,6 +23,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat vs. DC Universe](https://mortal-kombat-vs-dc-universe.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-vs-dc-universe) · [original](http://www.worldscollide.com/) | 21 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat: Deadly Alliance](https://mortal-kombat-deadly-alliance.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deadly-alliance) · [original](http://www.mortalkombat.midway.com/mortalkombatdeadlyalliance/intro.html) | 77 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat: Deception](https://mortal-kombat-deception.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deception) · [original](http://www.mkdeception.com/) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Mortal Kombat: Shaolin Monks](https://mortal-kombat-shaolin-monks.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-shaolin-monks) · [original](http://www.mkmonks.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter Anniversary Collection](https://street-fighter-anniversary-collection.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-anniversary-collection) · [original](http://ww2.capcom.com/sfac/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter EX2](https://street-fighter-ex2.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2) · [original](http://www.arika.co.jp/prod/ex2index.html) | 31 | ![partial](https://img.shields.io/badge/-partial-yellow) |
