@@ -303,13 +303,13 @@
     "description": "Mirror of Mortal Kombat 4 (http://www.mk4.com/)",
     "url": "https://mortal-kombat-4.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/mortal-kombat-4",
-    "updated_at": "2026-05-05T09:57:41Z",
-    "pushed_at": "2026-05-05T09:57:36Z",
+    "updated_at": "2026-05-05T10:22:56Z",
+    "pushed_at": "2026-05-05T10:22:52Z",
     "title": "Mortal Kombat 4",
     "original_url": "http://www.mk4.com/",
     "category": "official-game",
-    "missing_count": 0,
-    "status": "preserved"
+    "missing_count": 107,
+    "status": "partial"
   },
   {
     "slug": "mortal-kombat-gold",
