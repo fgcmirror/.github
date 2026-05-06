@@ -427,5 +427,18 @@
     "category": "official-game",
     "missing_count": 2,
     "status": "partial"
+  },
+  {
+    "slug": "vampire-chronicle-for-matching-service",
+    "description": "Mirror of Vampire Chronicle for Matching Service (https://www.capcom.co.jp/newproducts/consumer/chronicle/index.html)",
+    "url": "https://vampire-chronicle-for-matching-service.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/vampire-chronicle-for-matching-service",
+    "updated_at": "2026-05-06T21:31:40Z",
+    "pushed_at": "2026-05-06T21:31:34Z",
+    "title": "Vampire Chronicle for Matching Service",
+    "original_url": "http://www.capcom.co.jp/newproducts/consumer/chronicle/index.html",
+    "category": "official-game",
+    "missing_count": 4,
+    "status": "partial"
   }
 ]
