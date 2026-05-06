@@ -388,5 +388,44 @@
     "category": "official-game",
     "missing_count": 3090,
     "status": "partial"
+  },
+  {
+    "slug": "street-fighter-iii-3rd-strike-arcade",
+    "description": "Mirror of Street Fighter III: 3rd Strike (Arcade) (http://www.capcom.co.jp/newproducts/arcade/sf3rd/)",
+    "url": "https://street-fighter-iii-3rd-strike-arcade.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-iii-3rd-strike-arcade",
+    "updated_at": "2026-05-06T08:06:35Z",
+    "pushed_at": "2026-05-06T08:06:31Z",
+    "title": "Street Fighter III: 3rd Strike (Arcade)",
+    "original_url": "http://www.capcom.co.jp/newproducts/arcade/sf3rd/",
+    "category": "official-game",
+    "missing_count": 19,
+    "status": "partial"
+  },
+  {
+    "slug": "street-fighter-iii-3rd-strike",
+    "description": "Mirror of Street Fighter III: 3rd Strike (Dreamcast) (http://www.capcom.co.jp/newproducts/consumer/3rd/)",
+    "url": "https://street-fighter-iii-3rd-strike.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-iii-3rd-strike",
+    "updated_at": "2026-05-06T08:06:43Z",
+    "pushed_at": "2026-05-06T08:06:39Z",
+    "title": "Street Fighter III: 3rd Strike (Dreamcast)",
+    "original_url": "http://www.capcom.co.jp/newproducts/consumer/3rd/",
+    "category": "official-game",
+    "missing_count": 12,
+    "status": "partial"
+  },
+  {
+    "slug": "street-fighter-iii-3rd-strike-online-edition",
+    "description": "Mirror of Street Fighter III: 3rd Strike Online Edition (http://capcom.co.jp/sf3_3rd/)",
+    "url": "https://street-fighter-iii-3rd-strike-online-edition.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-iii-3rd-strike-online-edition",
+    "updated_at": "2026-05-06T08:07:05Z",
+    "pushed_at": "2026-05-06T08:06:59Z",
+    "title": "Street Fighter III: 3rd Strike Online Edition",
+    "original_url": "http://capcom.co.jp/sf3_3rd/",
+    "category": "official-game",
+    "missing_count": 2,
+    "status": "partial"
   }
 ]

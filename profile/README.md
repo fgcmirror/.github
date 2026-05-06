@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (30)
+## Mirrors (33)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -30,6 +30,9 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Street Fighter EX2 Plus](https://street-fighter-ex2-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2-plus) · [original](http://www.arika.co.jp/prod/ex2p_index.html) | 255 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III W Impact (Dreamcast)](https://street-fighter-iii-w-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-w-impact) · [original](http://www.capcom.co.jp/newproducts/consumer/sf3w/) | 70 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III: 2nd Impact - Giant Attack](https://street-fighter-iii-2nd-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-2nd-impact) · [original](http://www.capcom.co.jp/newproducts/arcade/st3-2nd/chara.html) | 29 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter III: 3rd Strike (Arcade)](https://street-fighter-iii-3rd-strike-arcade.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-3rd-strike-arcade) · [original](http://www.capcom.co.jp/newproducts/arcade/sf3rd/) | 19 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter III: 3rd Strike (Dreamcast)](https://street-fighter-iii-3rd-strike.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-3rd-strike) · [original](http://www.capcom.co.jp/newproducts/consumer/3rd/) | 12 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter III: 3rd Strike Online Edition](https://street-fighter-iii-3rd-strike-online-edition.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-3rd-strike-online-edition) · [original](http://capcom.co.jp/sf3_3rd/) | 2 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter IV (Japan)](https://street-fighter-iv-japan.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iv-japan) · [original](http://www.capcom.co.jp/sf4/) | 3090 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter X Mega Man](https://street-fighter-x-mega-man.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-mega-man) · [original](https://megaman.capcom.com/sfxmm/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter X Tekken](https://street-fighter-x-tekken.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-tekken) · [original](http://www.streetfighter.com/sfxtk/) | 46 | ![partial](https://img.shields.io/badge/-partial-yellow) |
