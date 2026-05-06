@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (29)
+## Mirrors (30)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -30,6 +30,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Street Fighter EX2 Plus](https://street-fighter-ex2-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2-plus) · [original](http://www.arika.co.jp/prod/ex2p_index.html) | 255 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III W Impact (Dreamcast)](https://street-fighter-iii-w-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-w-impact) · [original](http://www.capcom.co.jp/newproducts/consumer/sf3w/) | 70 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III: 2nd Impact - Giant Attack](https://street-fighter-iii-2nd-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-2nd-impact) · [original](http://www.capcom.co.jp/newproducts/arcade/st3-2nd/chara.html) | 29 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter IV (Japan)](https://street-fighter-iv-japan.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iv-japan) · [original](http://www.capcom.co.jp/sf4/) | 3090 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter X Mega Man](https://street-fighter-x-mega-man.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-mega-man) · [original](https://megaman.capcom.com/sfxmm/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Street Fighter X Tekken](https://street-fighter-x-tekken.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-x-tekken) · [original](http://www.streetfighter.com/sfxtk/) | 46 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Super Street Fighter II Turbo Revival (GBA)](https://super-street-fighter-ii-turbo-gba.fgcmirror.com) | [source](https://github.com/fgcmirror/super-street-fighter-ii-turbo-gba) · [original](http://www.capcom.co.jp/newproducts/consumer/gbasf2ad/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |

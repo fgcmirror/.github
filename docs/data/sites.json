@@ -375,5 +375,18 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "street-fighter-iv-japan",
+    "description": "Mirror of Street Fighter IV (Japan) (http://www.capcom.co.jp/sf4/)",
+    "url": "https://street-fighter-iv-japan.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/street-fighter-iv-japan",
+    "updated_at": "2026-05-06T07:33:35Z",
+    "pushed_at": "2026-05-06T07:33:18Z",
+    "title": "Street Fighter IV (Japan)",
+    "original_url": "http://www.capcom.co.jp/sf4/",
+    "category": "official-game",
+    "missing_count": 3090,
+    "status": "partial"
   }
 ]
