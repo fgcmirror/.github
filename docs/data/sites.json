@@ -453,5 +453,18 @@
     "category": "official-game",
     "missing_count": 0,
     "status": "preserved"
+  },
+  {
+    "slug": "samurai-spirits-sen",
+    "description": "Mirror of Samurai Spirits Sen (https://game.snk-corp.co.jp/official/samurai_sen/)",
+    "url": "https://samurai-spirits-sen.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-sen",
+    "updated_at": "2026-05-16T05:58:36Z",
+    "pushed_at": "2026-05-16T05:58:32Z",
+    "title": "Samurai Spirits Sen",
+    "original_url": "https://game.snk-corp.co.jp/official/samurai_sen/",
+    "category": "official-game",
+    "missing_count": 23,
+    "status": "partial"
   }
 ]
