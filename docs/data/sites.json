@@ -479,5 +479,18 @@
     "category": "official-game",
     "missing_count": 15,
     "status": "partial"
+  },
+  {
+    "slug": "samurai-spirits-2019",
+    "description": "Mirror of SAMURAI SPIRITS (2019, NESiCAxLive2 arcade) (https://www.taito.co.jp/nxl/title/0000002751)",
+    "url": "https://samurai-spirits-2019.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-2019",
+    "updated_at": "2026-05-16T06:30:20Z",
+    "pushed_at": "2026-05-16T06:30:16Z",
+    "title": "SAMURAI SPIRITS (2019, NESiCAxLive2 arcade)",
+    "original_url": "https://www.taito.co.jp/nxl/title/0000002751",
+    "category": "official-game",
+    "missing_count": 6,
+    "status": "partial"
   }
 ]

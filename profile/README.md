@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (37)
+## Mirrors (38)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -26,6 +26,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat: Shaolin Monks](https://mortal-kombat-shaolin-monks.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-shaolin-monks) · [original](http://www.mkmonks.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Samurai Shodown: Tenka](https://samurai-shodown-tenka.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-shodown-tenka) · [original](https://game.snk-corp.co.jp/official/samurai_tenka/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [SAMURAI SPIRITS (2019, NESiCAxLive2 arcade)](https://samurai-spirits-2019.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-2019) · [original](https://www.taito.co.jp/nxl/title/0000002751) | 6 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Sen](https://samurai-spirits-sen.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-sen) · [original](https://game.snk-corp.co.jp/official/samurai_sen/) | 21 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Tenkaichi Kenkakuden (Sega Promo Page)](https://samurai-spirits-tenkaichi-kenkakuden-sega.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-tenkaichi-kenkakuden-sega) · [original](http://am.sega.jp/utop/closeup/samurai_06.html) | 15 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter Anniversary Collection](https://street-fighter-anniversary-collection.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-anniversary-collection) · [original](http://ww2.capcom.com/sfac/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
