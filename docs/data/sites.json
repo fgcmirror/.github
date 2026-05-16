@@ -505,5 +505,18 @@
     "category": "official-game",
     "missing_count": 29,
     "status": "partial"
+  },
+  {
+    "slug": "samurai-shodown-anthology",
+    "description": "Mirror of Samurai Shodown Anthology (https://game.snk-corp.co.jp/official/samurai_6ban/)",
+    "url": "https://samurai-shodown-anthology.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-shodown-anthology",
+    "updated_at": "2026-05-16T06:36:28Z",
+    "pushed_at": "2026-05-16T06:36:24Z",
+    "title": "Samurai Shodown Anthology",
+    "original_url": "https://game.snk-corp.co.jp/official/samurai_6ban/",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]

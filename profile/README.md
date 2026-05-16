@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (39)
+## Mirrors (40)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -25,6 +25,7 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat: Deception](https://mortal-kombat-deception.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deception) · [original](http://www.mkdeception.com/) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat: Shaolin Monks](https://mortal-kombat-shaolin-monks.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-shaolin-monks) · [original](http://www.mkmonks.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [Samurai Shodown Anthology](https://samurai-shodown-anthology.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-shodown-anthology) · [original](https://game.snk-corp.co.jp/official/samurai_6ban/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Samurai Shodown: Tenka](https://samurai-shodown-tenka.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-shodown-tenka) · [original](https://game.snk-corp.co.jp/official/samurai_tenka/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [SAMURAI SPIRITS (2019, NESiCAxLive2 arcade)](https://samurai-spirits-2019.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-2019) · [original](https://www.taito.co.jp/nxl/title/0000002751) | 6 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Anniversary IV](https://samurai-spirits-anniversary-iv.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-anniversary-iv) · [original](https://samuraianiv.snk-corp.co.jp/) | 29 | ![partial](https://img.shields.io/badge/-partial-yellow) |
