@@ -466,5 +466,18 @@
     "category": "official-game",
     "missing_count": 23,
     "status": "partial"
+  },
+  {
+    "slug": "samurai-spirits-tenkaichi-kenkakuden-sega",
+    "description": "Mirror of Samurai Spirits Tenkaichi Kenkakuden (Sega Promo Page) (http://am.sega.jp/utop/closeup/samurai_06.html)",
+    "url": "https://samurai-spirits-tenkaichi-kenkakuden-sega.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-tenkaichi-kenkakuden-sega",
+    "updated_at": "2026-05-16T06:07:45Z",
+    "pushed_at": "2026-05-16T06:07:40Z",
+    "title": "Samurai Spirits Tenkaichi Kenkakuden (Sega Promo Page)",
+    "original_url": "http://am.sega.jp/utop/closeup/samurai_06.html",
+    "category": "official-game",
+    "missing_count": 15,
+    "status": "partial"
   }
 ]
