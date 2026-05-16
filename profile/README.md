@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (40)
+## Mirrors (48)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -32,8 +32,16 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Samurai Spirits Sen](https://samurai-spirits-sen.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-sen) · [original](https://game.snk-corp.co.jp/official/samurai_sen/) | 21 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Tenkaichi Kenkakuden (Sega Promo Page)](https://samurai-spirits-tenkaichi-kenkakuden-sega.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-tenkaichi-kenkakuden-sega) · [original](http://am.sega.jp/utop/closeup/samurai_06.html) | 15 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter Anniversary Collection](https://street-fighter-anniversary-collection.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-anniversary-collection) · [original](http://ww2.capcom.com/sfac/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [Street Fighter EX](https://street-fighter-ex.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex) · [original](http://www.arika.co.jp/prod/sfex00.html) | 24 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX plus](https://street-fighter-ex-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex-plus) · [original](http://www.arika.co.jp/prod/sfex01.html) | 26 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX plus α](https://street-fighter-ex-plus-alpha.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex-plus-alpha) · [original](http://www.arika.co.jp/product/ex_plus_a/index.html) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX plus α (legacy)](https://street-fighter-ex-plus-alpha-legacy.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex-plus-alpha-legacy) · [original](http://www.arika.co.jp/prod/sfex04.html) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter EX2](https://street-fighter-ex2.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2) · [original](http://www.arika.co.jp/prod/ex2index.html) | 31 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter EX2 Plus](https://street-fighter-ex2-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2-plus) · [original](http://www.arika.co.jp/prod/ex2p_index.html) | 255 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX2 Plus (Capcom)](https://street-fighter-ex2-plus-capcom.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2-plus-capcom) · [original](http://www.capcom.co.jp/newproducts/consumer/ex2plus/index.html) | 5 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX2 Plus (PS)](https://street-fighter-ex2-plus-ps.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex2-plus-ps) · [original](http://www.arika.co.jp/product/ex2_plus/index.html) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX3](https://street-fighter-ex3.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex3) · [original](http://www.arika.co.jp/product/sfex3/index.html) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX3 (legacy)](https://street-fighter-ex3-legacy.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex3-legacy) · [original](http://www.arika.co.jp/prod/ex3_ex01.html) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III W Impact (Dreamcast)](https://street-fighter-iii-w-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-w-impact) · [original](http://www.capcom.co.jp/newproducts/consumer/sf3w/) | 70 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III: 2nd Impact - Giant Attack](https://street-fighter-iii-2nd-impact.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-2nd-impact) · [original](http://www.capcom.co.jp/newproducts/arcade/st3-2nd/chara.html) | 29 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter III: 3rd Strike (Arcade)](https://street-fighter-iii-3rd-strike-arcade.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-iii-3rd-strike-arcade) · [original](http://www.capcom.co.jp/newproducts/arcade/sf3rd/) | 19 | ![partial](https://img.shields.io/badge/-partial-yellow) |
