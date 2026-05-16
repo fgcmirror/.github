@@ -440,5 +440,18 @@
     "category": "official-game",
     "missing_count": 4,
     "status": "partial"
+  },
+  {
+    "slug": "samurai-shodown-tenka",
+    "description": "Mirror of Samurai Shodown: Tenka (https://game.snk-corp.co.jp/official/samurai_tenka/)",
+    "url": "https://samurai-shodown-tenka.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-shodown-tenka",
+    "updated_at": "2026-05-16T05:44:34Z",
+    "pushed_at": "2026-05-16T05:44:29Z",
+    "title": "Samurai Shodown: Tenka",
+    "original_url": "https://game.snk-corp.co.jp/official/samurai_tenka/",
+    "category": "official-game",
+    "missing_count": 0,
+    "status": "preserved"
   }
 ]
