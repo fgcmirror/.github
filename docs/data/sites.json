@@ -492,5 +492,18 @@
     "category": "official-game",
     "missing_count": 6,
     "status": "partial"
+  },
+  {
+    "slug": "samurai-spirits-anniversary-iv",
+    "description": "Mirror of Samurai Spirits Anniversary IV (https://samuraianiv.snk-corp.co.jp/)",
+    "url": "https://samurai-spirits-anniversary-iv.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-anniversary-iv",
+    "updated_at": "2026-05-16T06:33:09Z",
+    "pushed_at": "2026-05-16T06:33:00Z",
+    "title": "Samurai Spirits Anniversary IV",
+    "original_url": "https://samuraianiv.snk-corp.co.jp/",
+    "category": "official-game",
+    "missing_count": 29,
+    "status": "partial"
   }
 ]
