@@ -6,7 +6,7 @@ Many of the sites that documented fighting games — character pages, move lists
 
 🌐 **Browse & search all mirrors:** <https://fgcmirror.com>
 
-## Mirrors (48)
+## Mirrors (51)
 
 | Title | Links | Missing | Status |
 | --- | --- | --: | :-: |
@@ -25,14 +25,17 @@ Many of the sites that documented fighting games — character pages, move lists
 | [Mortal Kombat: Deception](https://mortal-kombat-deception.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-deception) · [original](http://www.mkdeception.com/) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Mortal Kombat: Shaolin Monks](https://mortal-kombat-shaolin-monks.fgcmirror.com) | [source](https://github.com/fgcmirror/mortal-kombat-shaolin-monks) · [original](http://www.mkmonks.com/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [NeoGeo Battle Coliseum](https://neogeo-battle-coliseum.fgcmirror.com) | [source](https://github.com/fgcmirror/neogeo-battle-coliseum) · [original](https://game.snk-corp.co.jp/official/nbc/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
+| [SAMURAI SHODOWN (2019)](https://samurai-shodown-2019.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-shodown-2019) · [original](https://www.snk-corp.co.jp/us/games/samuraishodown/) | 7 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Shodown Anthology](https://samurai-shodown-anthology.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-shodown-anthology) · [original](https://game.snk-corp.co.jp/official/samurai_6ban/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
 | [Samurai Shodown: Tenka](https://samurai-shodown-tenka.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-shodown-tenka) · [original](https://game.snk-corp.co.jp/official/samurai_tenka/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
-| [SAMURAI SPIRITS (2019, NESiCAxLive2 arcade)](https://samurai-spirits-2019.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-2019) · [original](https://www.taito.co.jp/nxl/title/0000002751) | 6 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [SAMURAI SPIRITS (2019)](https://samurai-spirits-2019.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-2019) · [original](https://www.snk-corp.co.jp/official/samuraispirits/) | 20 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [SAMURAI SPIRITS (2019, NESiCAxLive2 arcade)](https://samurai-spirits-2019-taito.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-2019-taito) · [original](https://www.taito.co.jp/nxl/title/0000002751) | 6 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Anniversary IV](https://samurai-spirits-anniversary-iv.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-anniversary-iv) · [original](https://samuraianiv.snk-corp.co.jp/) | 29 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [SAMURAI SPIRITS PORTAL](https://samurai-spirits-portal.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-portal) · [original](https://www.snk-corp.co.jp/official/samuraispirits-portal/) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Sen](https://samurai-spirits-sen.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-sen) · [original](https://game.snk-corp.co.jp/official/samurai_sen/) | 21 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Samurai Spirits Tenkaichi Kenkakuden (Sega Promo Page)](https://samurai-spirits-tenkaichi-kenkakuden-sega.fgcmirror.com) | [source](https://github.com/fgcmirror/samurai-spirits-tenkaichi-kenkakuden-sega) · [original](http://am.sega.jp/utop/closeup/samurai_06.html) | 15 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter Anniversary Collection](https://street-fighter-anniversary-collection.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-anniversary-collection) · [original](http://ww2.capcom.com/sfac/) | 0 | ![preserved](https://img.shields.io/badge/-preserved-brightgreen) |
-| [Street Fighter EX](https://street-fighter-ex.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex) · [original](http://www.arika.co.jp/prod/sfex00.html) | 24 | ![partial](https://img.shields.io/badge/-partial-yellow) |
+| [Street Fighter EX](https://street-fighter-ex.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex) · [original](http://www.arika.co.jp/prod/sfex00.html) | 111 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter EX plus](https://street-fighter-ex-plus.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex-plus) · [original](http://www.arika.co.jp/prod/sfex01.html) | 26 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter EX plus α](https://street-fighter-ex-plus-alpha.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex-plus-alpha) · [original](http://www.arika.co.jp/product/ex_plus_a/index.html) | 1 | ![partial](https://img.shields.io/badge/-partial-yellow) |
 | [Street Fighter EX plus α (legacy)](https://street-fighter-ex-plus-alpha-legacy.fgcmirror.com) | [source](https://github.com/fgcmirror/street-fighter-ex-plus-alpha-legacy) · [original](http://www.arika.co.jp/prod/sfex04.html) | 13 | ![partial](https://img.shields.io/badge/-partial-yellow) |

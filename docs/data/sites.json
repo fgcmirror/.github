@@ -481,12 +481,12 @@
     "status": "partial"
   },
   {
-    "slug": "samurai-spirits-2019",
+    "slug": "samurai-spirits-2019-taito",
     "description": "Mirror of SAMURAI SPIRITS (2019, NESiCAxLive2 arcade) (https://www.taito.co.jp/nxl/title/0000002751)",
-    "url": "https://samurai-spirits-2019.fgcmirror.com",
-    "html_url": "https://github.com/fgcmirror/samurai-spirits-2019",
-    "updated_at": "2026-05-16T06:30:20Z",
-    "pushed_at": "2026-05-16T06:30:16Z",
+    "url": "https://samurai-spirits-2019-taito.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-2019-taito",
+    "updated_at": "2026-05-16T18:46:50Z",
+    "pushed_at": "2026-05-16T18:46:46Z",
     "title": "SAMURAI SPIRITS (2019, NESiCAxLive2 arcade)",
     "original_url": "https://www.taito.co.jp/nxl/title/0000002751",
     "category": "official-game",
@@ -524,12 +524,12 @@
     "description": "Mirror of Street Fighter EX (http://www.arika.co.jp/prod/sfex00.html)",
     "url": "https://street-fighter-ex.fgcmirror.com",
     "html_url": "https://github.com/fgcmirror/street-fighter-ex",
-    "updated_at": "2026-05-16T07:22:35Z",
-    "pushed_at": "2026-05-16T07:22:31Z",
+    "updated_at": "2026-05-16T22:20:20Z",
+    "pushed_at": "2026-05-16T22:20:16Z",
     "title": "Street Fighter EX",
     "original_url": "http://www.arika.co.jp/prod/sfex00.html",
     "category": "official-game",
-    "missing_count": 24,
+    "missing_count": 111,
     "status": "partial"
   },
   {
@@ -621,6 +621,45 @@
     "original_url": "http://www.capcom.co.jp/newproducts/consumer/ex2plus/index.html",
     "category": "official-game",
     "missing_count": 5,
+    "status": "partial"
+  },
+  {
+    "slug": "samurai-spirits-2019",
+    "description": "Mirror of SAMURAI SPIRITS (2019) (https://www.snk-corp.co.jp/official/samuraispirits/)",
+    "url": "https://samurai-spirits-2019.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-2019",
+    "updated_at": "2026-05-16T21:12:33Z",
+    "pushed_at": "2026-05-16T21:12:27Z",
+    "title": "SAMURAI SPIRITS (2019)",
+    "original_url": "https://www.snk-corp.co.jp/official/samuraispirits/",
+    "category": "official-game",
+    "missing_count": 20,
+    "status": "partial"
+  },
+  {
+    "slug": "samurai-spirits-portal",
+    "description": "Mirror of SAMURAI SPIRITS PORTAL (https://www.snk-corp.co.jp/official/samuraispirits-portal/)",
+    "url": "https://samurai-spirits-portal.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-spirits-portal",
+    "updated_at": "2026-05-16T21:12:55Z",
+    "pushed_at": "2026-05-16T21:12:50Z",
+    "title": "SAMURAI SPIRITS PORTAL",
+    "original_url": "https://www.snk-corp.co.jp/official/samuraispirits-portal/",
+    "category": "official-game",
+    "missing_count": 13,
+    "status": "partial"
+  },
+  {
+    "slug": "samurai-shodown-2019",
+    "description": "Mirror of SAMURAI SHODOWN (2019) (https://www.snk-corp.co.jp/us/games/samuraishodown/)",
+    "url": "https://samurai-shodown-2019.fgcmirror.com",
+    "html_url": "https://github.com/fgcmirror/samurai-shodown-2019",
+    "updated_at": "2026-05-16T22:47:51Z",
+    "pushed_at": "2026-05-16T22:47:47Z",
+    "title": "SAMURAI SHODOWN (2019)",
+    "original_url": "https://www.snk-corp.co.jp/us/games/samuraishodown/",
+    "category": "official-game",
+    "missing_count": 7,
     "status": "partial"
   }
 ]
